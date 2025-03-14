@@ -1,5 +1,4 @@
-{
-  "tarot_cards": [
+[
     {
       "name_english": "The Fool",
       "name_chinese": "愚者",
@@ -703,4 +702,3 @@
       "image_path": "kingofpentacles.jpeg"
     }
   ]
-}
