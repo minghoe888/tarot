@@ -1,704 +1,2888 @@
 [
-    {
-      "name_english": "The Fool",
-      "name_chinese": "愚者",
-      "keywords_english": ["Beginnings", "Innocence", "Spontaneity", "Free Spirit", "Adventure"],
-      "keywords_chinese": ["开始", "天真", "自发", "自由精神", "冒险"],
-      "description_english": "The Fool card represents new beginnings, having faith in the future, being inexperienced, not knowing what to expect, having beginner's luck, improvisation and believing in the universe.",
-      "description_chinese": "愚者牌代表新的开始，对未来充满信心，缺乏经验，不知道会发生什么，拥有初学者的运气，即兴发挥并相信宇宙。",
-      "image_path": "thefool.jpeg"
-    },
-    {
-      "name_english": "The Magician",
-      "name_chinese": "魔术师",
-      "keywords_english": ["Manifestation", "Resourcefulness", "Power", "Skill", "Concentration"],
-      "keywords_chinese": ["显化", "足智多谋", "力量", "技能", "专注"],
-      "description_english": "The Magician card signifies the powers of the human will, the ability to manifest one's desires, and the use of skills and resources to achieve goals.",
-      "description_chinese": "魔术师牌象征着人类意志的力量，实现愿望的能力，以及利用技能和资源实现目标的能力。",
-      "image_path": "themagician.jpeg"
-    },
-    {
-      "name_english": "The High Priestess",
-      "name_chinese": "女祭司",
-      "keywords_english": ["Intuition", "Mystery", "Subconscious", "Wisdom", "Secrets"],
-      "keywords_chinese": ["直觉", "神秘", "潜意识", "智慧", "秘密"],
-      "description_english": "The High Priestess represents intuition, the subconscious mind, and the mysteries of the unknown. She encourages you to trust your instincts and listen to your inner voice.",
-      "description_chinese": "女祭司代表直觉、潜意识以及未知的奥秘。她鼓励你相信自己的直觉，倾听内心的声音。",
-      "image_path": "thehighpriestess.jpeg"
-    },
-    {
-      "name_english": "The Empress",
-      "name_chinese": "皇后",
-      "keywords_english": ["Fertility", "Abundance", "Nature", "Nurturing", "Beauty"],
-      "keywords_chinese": ["生育", "丰盛", "自然", "养育", "美丽"],
-      "description_english": "The Empress symbolizes fertility, abundance, and the nurturing aspects of nature. She represents creativity, beauty, and the flourishing of life.",
-      "description_chinese": "皇后象征着生育、丰盛以及自然的养育。她代表创造力、美丽和生命的繁荣。",
-      "image_path": "theempress.jpeg"
-    },
-    {
-      "name_english": "The Emperor",
-      "name_chinese": "皇帝",
-      "keywords_english": ["Authority", "Stability", "Structure", "Power", "Leadership"],
-      "keywords_chinese": ["权威", "稳定", "结构", "力量", "领导力"],
-      "description_english": "The Emperor represents authority, structure, and the power of leadership. He signifies stability, control, and the ability to make decisions with confidence.",
-      "description_chinese": "皇帝代表权威、结构和领导力。他象征着稳定、控制以及自信地做出决策的能力。",
-      "image_path": "theemperor.jpeg"
-    },
-    {
-      "name_english": "The Hierophant",
-      "name_chinese": "教皇",
-      "keywords_english": ["Tradition", "Conformity", "Religion", "Institutions", "Spiritual Guidance"],
-      "keywords_chinese": ["传统", "顺从", "宗教", "制度", "精神指导"],
-      "description_english": "The Hierophant represents tradition, conformity, and spiritual guidance. He signifies the importance of following established norms and seeking wisdom from institutions.",
-      "description_chinese": "教皇代表传统、顺从和精神指导。他象征着遵循既定规范并从制度中寻求智慧的重要性。",
-      "image_path": "thehierophant.jpeg"
-    },
-    {
-      "name_english": "The Lovers",
-      "name_chinese": "恋人",
-      "keywords_english": ["Love", "Relationships", "Harmony", "Choices", "Unity"],
-      "keywords_chinese": ["爱情", "关系", "和谐", "选择", "团结"],
-      "description_english": "The Lovers card represents love, relationships, and the harmony that comes from making choices in alignment with your values and beliefs.",
-      "description_chinese": "恋人牌代表爱情、关系以及根据你的价值观和信仰做出选择所带来的和谐。",
-      "image_path": "TheLovers.jpeg"
-    },
-    {
-      "name_english": "The Chariot",
-      "name_chinese": "战车",
-      "keywords_english": ["Willpower", "Determination", "Victory", "Control", "Focus"],
-      "keywords_chinese": ["意志力", "决心", "胜利", "控制", "专注"],
-      "description_english": "The Chariot signifies willpower, determination, and the drive to achieve victory. It represents control, focus, and the ability to overcome obstacles.",
-      "description_chinese": "战车象征着意志力、决心以及取得胜利的动力。它代表控制、专注以及克服障碍的能力。",
-      "image_path": "thechariot.jpeg"
-    },
-    {
-      "name_english": "Strength",
-      "name_chinese": "力量",
-      "keywords_english": ["Courage", "Inner Strength", "Patience", "Compassion", "Resilience"],
-      "keywords_chinese": ["勇气", "内在力量", "耐心", "同情", "韧性"],
-      "description_english": "Strength represents courage, inner strength, and the ability to overcome challenges with patience and compassion. It signifies resilience and the power of the human spirit.",
-      "description_chinese": "力量代表勇气、内在力量以及以耐心和同情心克服挑战的能力。它象征着韧性和人类精神的力量。",
-      "image_path": "thestrength.jpeg"
-    },
-    {
-      "name_english": "The Hermit",
-      "name_chinese": "隐士",
-      "keywords_english": ["Introspection", "Wisdom", "Solitude", "Guidance", "Inner Light"],
-      "keywords_chinese": ["内省", "智慧", "孤独", "指导", "内在之光"],
-      "description_english": "The Hermit signifies introspection, wisdom, and the search for inner light. He represents solitude, guidance, and the journey to self-discovery.",
-      "description_chinese": "隐士象征着内省、智慧以及对内在之光的追寻。他代表孤独、指导以及自我发现的旅程。",
-      "image_path": "thehermit.jpeg"
-    },
-    {
-      "name_english": "Wheel of Fortune",
-      "name_chinese": "命运之轮",
-      "keywords_english": ["Change", "Cycles", "Fate", "Opportunity", "Luck"],
-      "keywords_chinese": ["变化", "循环", "命运", "机会", "运气"],
-      "description_english": "The Wheel of Fortune represents change, cycles, and the turning of fate. It signifies opportunities, luck, and the ever-changing nature of life.",
-      "description_chinese": "命运之轮代表变化、循环以及命运的转折。它象征着机会、运气以及生命不断变化的本质。",
-      "image_path": "wheeloffortune.jpeg"
-    },
-    {
-      "name_english": "Justice",
-      "name_chinese": "正义",
-      "keywords_english": ["Fairness", "Truth", "Law", "Cause and Effect", "Balance"],
-      "keywords_chinese": ["公平", "真理", "法律", "因果", "平衡"],
-      "description_english": "Justice signifies fairness, truth, and the law of cause and effect. It represents balance, accountability, and the importance of making ethical decisions.",
-      "description_chinese": "正义象征着公平、真理以及因果法则。它代表平衡、责任以及做出道德决策的重要性。",
-      "image_path": "justice.jpeg"
-    },
-    {
-      "name_english": "The Hanged Man",
-      "name_chinese": "倒吊人",
-      "keywords_english": ["Surrender", "Letting Go", "New Perspectives", "Patience", "Suspension"],
-      "keywords_chinese": ["投降", "放手", "新视角", "耐心", "暂停"],
-      "description_english": "The Hanged Man represents surrender, letting go, and gaining new perspectives. It signifies patience, suspension, and the willingness to see things differently.",
-      "description_chinese": "倒吊人代表投降、放手以及获得新视角。它象征着耐心、暂停以及愿意以不同方式看待事物。",
-      "image_path": "thehangedman.jpeg"
-    },
-    {
-      "name_english": "Death",
-      "name_chinese": "死神",
-      "keywords_english": ["Transformation", "Endings", "Change", "Transition", "Renewal"],
-      "keywords_chinese": ["转变", "结束", "变化", "过渡", "更新"],
-      "description_english": "Death signifies transformation, endings, and the inevitability of change. It represents transition, renewal, and the opportunity for new beginnings.",
-      "description_chinese": "死神象征着转变、结束以及变化的必然性。它代表过渡、更新以及新开始的机会。",
-      "image_path": "death.jpeg"
-    },
-    {
-      "name_english": "Temperance",
-      "name_chinese": "节制",
-      "keywords_english": ["Balance", "Moderation", "Harmony", "Patience", "Integration"],
-      "keywords_chinese": ["平衡", "适度", "和谐", "耐心", "整合"],
-      "description_english": "Temperance represents balance, moderation, and the harmonious blending of opposites. It signifies patience, integration, and the importance of finding middle ground.",
-      "description_chinese": "节制代表平衡、适度以及对立的和谐融合。它象征着耐心、整合以及找到中间立场的重要性。",
-      "image_path": "temperance.jpeg"
-    },
-    {
-      "name_english": "The Devil",
-      "name_chinese": "恶魔",
-      "keywords_english": ["Bondage", "Materialism", "Temptation", "Shadow Self", "Addiction"],
-      "keywords_chinese": ["束缚", "物质主义", "诱惑", "阴影自我", "成瘾"],
-      "description_english": "The Devil signifies bondage, materialism, and the temptations of the shadow self. It represents addiction, fear, and the need to break free from limiting beliefs.",
-      "description_chinese": "恶魔象征着束缚、物质主义以及阴影自我的诱惑。它代表成瘾、恐惧以及摆脱限制性信念的需要。",
-      "image_path": "thedevil.jpeg"
-    },
-    {
-      "name_english": "The Tower",
-      "name_chinese": "塔",
-      "keywords_english": ["Upheaval", "Sudden Change", "Revelation", "Disruption", "Awakening"],
-      "keywords_chinese": ["剧变", "突然变化", "启示", "破坏", "觉醒"],
-      "description_english": "The Tower represents upheaval, sudden change, and the revelation of truth. It signifies disruption, awakening, and the breaking down of old structures.",
-      "description_chinese": "塔代表剧变、突然变化以及真相的揭示。它象征着破坏、觉醒以及旧结构的崩溃。",
-      "image_path": "thetower.jpeg"
-    },
-    {
-      "name_english": "The Star",
-      "name_chinese": "星星",
-      "keywords_english": ["Hope", "Inspiration", "Optimism", "Faith", "Healing"],
-      "keywords_chinese": ["希望", "灵感", "乐观", "信仰", "治愈"],
-      "description_english": "The Star signifies hope, inspiration, and the promise of a brighter future. It represents optimism, faith, and the healing power of the universe.",
-      "description_chinese": "星星象征着希望、灵感以及更美好未来的承诺。它代表乐观、信仰以及宇宙的治愈力量。",
-      "image_path": "thestar.jpeg"
-    },
-    {
-      "name_english": "The Moon",
-      "name_chinese": "月亮",
-      "keywords_english": ["Illusion", "Intuition", "Subconscious", "Dreams", "Uncertainty"],
-      "keywords_chinese": ["幻觉", "直觉", "潜意识", "梦想", "不确定性"],
-      "description_english": "The Moon represents illusion, intuition, and the mysteries of the subconscious mind. It signifies dreams, uncertainty, and the need to trust your inner guidance.",
-      "description_chinese": "月亮代表幻觉、直觉以及潜意识的神秘。它象征着梦想、不确定性以及信任内在指导的需要。",
-      "image_path": "themoon.jpeg"
-    },
-    {
-      "name_english": "The Sun",
-      "name_chinese": "太阳",
-      "keywords_english": ["Joy", "Success", "Vitality", "Clarity", "Abundance"],
-      "keywords_chinese": ["喜悦", "成功", "活力", "清晰", "丰盛"],
-      "description_english": "The Sun signifies joy, success, and the vitality of life. It represents clarity, abundance, and the radiant energy of the universe.",
-      "description_chinese": "太阳象征着喜悦、成功以及生命的活力。它代表清晰、丰盛以及宇宙的辐射能量。",
-      "image_path": "thesun.jpeg"
-    },
-    {
-      "name_english": "Judgement",
-      "name_chinese": "审判",
-      "keywords_english": ["Awakening", "Renewal", "Reckoning", "Absolution", "Inner Calling"],
-      "keywords_chinese": ["觉醒", "更新", "清算", "赦免", "内在召唤"],
-      "description_english": "Judgement represents awakening, renewal, and the reckoning of past actions. It signifies absolution, inner calling, and the opportunity for transformation.",
-      "description_chinese": "审判代表觉醒、更新以及对过去行为的清算。它象征着赦免、内在召唤以及转变的机会。",
-      "image_path": "judgement.jpeg"
-    },
-    {
-      "name_english": "The World",
-      "name_chinese": "世界",
-      "keywords_english": ["Completion", "Fulfillment", "Integration", "Wholeness", "Achievement"],
-      "keywords_chinese": ["完成", "实现", "整合", "完整", "成就"],
-      "description_english": "The World signifies completion, fulfillment, and the integration of all aspects of life. It represents wholeness, achievement, and the culmination of a journey.",
-      "description_chinese": "世界象征着完成、实现以及生活各个方面的整合。它代表完整、成就以及旅程的圆满结束。",
-      "image_path": "theworld.jpeg"
-    },
-    {
-      "name_english": "Ace of Wands",
-      "name_chinese": "权杖王牌",
-      "keywords_english": ["Inspiration", "Creativity", "New Beginnings", "Passion", "Potential"],
-      "keywords_chinese": ["灵感", "创造力", "新开始", "激情", "潜力"],
-      "description_english": "The Ace of Wands represents inspiration, creativity, and the spark of new beginnings. It signifies passion, potential, and the energy to pursue your dreams.",
-      "description_chinese": "权杖王牌代表灵感、创造力以及新开始的火花。它象征着激情、潜力以及追求梦想的能量。",
-      "image_path": "aceofwands.jpeg"
-    },
-    {
-      "name_english": "Two of Wands",
-      "name_chinese": "权杖二",
-      "keywords_english": ["Planning", "Future", "Ambition", "Decisions", "Exploration"],
-      "keywords_chinese": ["计划", "未来", "野心", "决策", "探索"],
-      "description_english": "The Two of Wands signifies planning, future goals, and the ambition to explore new opportunities. It represents decisions, exploration, and the courage to take the next step.",
-      "description_chinese": "权杖二象征着计划、未来目标以及探索新机会的野心。它代表决策、探索以及迈出下一步的勇气。",
-      "image_path": "twoofwands.jpeg"
-    },
-    {
-      "name_english": "Three of Wands",
-      "name_chinese": "权杖三",
-      "keywords_english": ["Expansion", "Foresight", "Progress", "Opportunity", "Collaboration"],
-      "keywords_chinese": ["扩展", "远见", "进步", "机会", "合作"],
-      "description_english": "The Three of Wands represents expansion, foresight, and the progress of your plans. It signifies opportunity, collaboration, and the rewards of hard work.",
-      "description_chinese": "权杖三代表扩展、远见以及计划的进展。它象征着机会、合作以及辛勤工作的回报。",
-      "image_path": "threeofwands.jpeg"
-    },
-    {
-      "name_english": "Four of Wands",
-      "name_chinese": "权杖四",
-      "keywords_english": ["Celebration", "Harmony", "Stability", "Home", "Community"],
-      "keywords_chinese": ["庆祝", "和谐", "稳定", "家", "社区"],
-      "description_english": "The Four of Wands signifies celebration, harmony, and the stability of home and community. It represents joy, unity, and the fruits of your labor.",
-      "description_chinese": "权杖四象征着庆祝、和谐以及家庭和社区的稳定。它代表喜悦、团结以及劳动的成果。",
-      "image_path": "fourofwands.jpeg"
-    },
-    {
-      "name_english": "Five of Wands",
-      "name_chinese": "权杖五",
-      "keywords_english": ["Conflict", "Competition", "Disagreement", "Challenge", "Rivalry"],
-      "keywords_chinese": ["冲突", "竞争", "分歧", "挑战", "对抗"],
-      "description_english": "The Five of Wands represents conflict, competition, and the challenges of disagreement. It signifies rivalry, tension, and the need to find common ground.",
-      "description_chinese": "权杖五代表冲突、竞争以及分歧的挑战。它象征着对抗、紧张以及找到共同点的需要。",
-      "image_path": "fiveofwands.jpeg"
-    },
-    {
-      "name_english": "Six of Wands",
-      "name_chinese": "权杖六",
-      "keywords_english": ["Victory", "Success", "Recognition", "Achievement", "Triumph"],
-      "keywords_chinese": ["胜利", "成功", "认可", "成就", "凯旋"],
-      "description_english": "The Six of Wands signifies victory, success, and the recognition of your achievements. It represents triumph, pride, and the rewards of perseverance.",
-      "description_chinese": "权杖六象征着胜利、成功以及对成就的认可。它代表凯旋、自豪以及坚持不懈的回报。",
-      "image_path": "sixofwands.jpeg"
-    },
-    {
-      "name_english": "Seven of Wands",
-      "name_chinese": "权杖七",
-      "keywords_english": ["Defense", "Standing Your Ground", "Protection", "Resilience", "Determination"],
-      "keywords_chinese": ["防御", "坚持立场", "保护", "韧性", "决心"],
-      "description_english": "The Seven of Wands represents defense, standing your ground, and the need to protect what is yours. It signifies resilience, determination, and the courage to face challenges.",
-      "description_chinese": "权杖七代表防御、坚持立场以及保护自己所有物的需要。它象征着韧性、决心以及面对挑战的勇气。",
-      "image_path": "sevenofwands.jpeg"
-    },
-    {
-      "name_english": "Eight of Wands",
-      "name_chinese": "权杖八",
-      "keywords_english": ["Speed", "Movement", "Progress", "Action", "Momentum"],
-      "keywords_chinese": ["速度", "运动", "进展", "行动", "势头"],
-      "description_english": "The Eight of Wands signifies speed, movement, and the rapid progress of your plans. It represents action, momentum, and the energy to achieve your goals.",
-      "description_chinese": "权杖八象征着速度、运动以及计划的快速进展。它代表行动、势头以及实现目标的能量。",
-      "image_path": "eightofwands.jpeg"
-    },
-    {
-      "name_english": "Nine of Wands",
-      "name_chinese": "权杖九",
-      "keywords_english": ["Resilience", "Persistence", "Courage", "Endurance", "Preparation"],
-      "keywords_chinese": ["韧性", "坚持", "勇气", "耐力", "准备"],
-      "description_english": "The Nine of Wands represents resilience, persistence, and the courage to keep going despite challenges. It signifies endurance, preparation, and the strength to overcome obstacles.",
-      "description_chinese": "权杖九代表韧性、坚持以及面对挑战继续前进的勇气。它象征着耐力、准备以及克服障碍的力量。",
-      "image_path": "nineofwands.jpeg"
-    },
-    {
-      "name_english": "Ten of Wands",
-      "name_chinese": "权杖十",
-      "keywords_english": ["Burden", "Responsibility", "Hard Work", "Overload", "Completion"],
-      "keywords_chinese": ["负担", "责任", "辛勤工作", "超负荷", "完成"],
-      "description_english": "The Ten of Wands signifies burden, responsibility, and the weight of hard work. It represents overload, completion, and the need to delegate or let go.",
-      "description_chinese": "权杖十象征着负担、责任以及辛勤工作的压力。它代表超负荷、完成以及需要委派或放手的必要性。",
-      "image_path": "tenofwands.jpeg"
-    },
-    {
-      "name_english": "Page of Wands",
-      "name_chinese": "权杖侍从",
-      "keywords_english": ["Enthusiasm", "Exploration", "Discovery", "Energy", "New Ideas"],
-      "keywords_chinese": ["热情", "探索", "发现", "能量", "新想法"],
-      "description_english": "The Page of Wands represents enthusiasm, exploration, and the discovery of new ideas. It signifies energy, curiosity, and the excitement of new beginnings.",
-      "description_chinese": "权杖侍从代表热情、探索以及新想法的发现。它象征着能量、好奇心以及新开始的兴奋。",
-      "image_path": "pageofwands.jpeg"
-    },
-    {
-      "name_english": "Knight of Wands",
-      "name_chinese": "权杖骑士",
-      "keywords_english": ["Adventure", "Passion", "Impulsiveness", "Energy", "Courage"],
-      "keywords_chinese": ["冒险", "激情", "冲动", "能量", "勇气"],
-      "description_english": "The Knight of Wands signifies adventure, passion, and the impulsiveness of youth. It represents energy, courage, and the drive to pursue your dreams.",
-      "description_chinese": "权杖骑士象征着冒险、激情以及青春的冲动。它代表能量、勇气以及追求梦想的动力。",
-      "image_path": "knightofwands.jpeg"
-    },
-    {
-      "name_english": "Queen of Wands",
-      "name_chinese": "权杖皇后",
-      "keywords_english": ["Confidence", "Leadership", "Vitality", "Charisma", "Independence"],
-      "keywords_chinese": ["自信", "领导力", "活力", "魅力", "独立"],
-      "description_english": "The Queen of Wands represents confidence, leadership, and the vitality of life. It signifies charisma, independence, and the ability to inspire others.",
-      "description_chinese": "权杖皇后代表自信、领导力以及生命的活力。它象征着魅力、独立以及激励他人的能力。",
-      "image_path": "queenofwands.jpeg"
-    },
-    {
-      "name_english": "King of Wands",
-      "name_chinese": "权杖国王",
-      "keywords_english": ["Vision", "Ambition", "Courage", "Determination", "Leadership"],
-      "keywords_chinese": ["远见", "野心", "勇气", "决心", "领导力"],
-      "description_english": "The King of Wands signifies vision, ambition, and the courage to lead. It represents determination, leadership, and the ability to turn dreams into reality.",
-      "description_chinese": "权杖国王象征着远见、野心以及领导的勇气。它代表决心、领导力以及将梦想变为现实的能力。",
-      "image_path": "kingofwands.jpeg"
-    },
-    {
-      "name_english": "Ace of Cups",
-      "name_chinese": "圣杯王牌",
-      "keywords_english": ["Love", "Emotions", "Intuition", "New Relationships", "Compassion"],
-      "keywords_chinese": ["爱", "情感", "直觉", "新关系", "同情"],
-      "description_english": "The Ace of Cups represents love, emotions, and the flow of intuition. It signifies new relationships, compassion, and the opening of the heart.",
-      "description_chinese": "圣杯王牌代表爱、情感以及直觉的流动。它象征着新关系、同情以及心灵的开放。",
-      "image_path": "aceofcups.jpeg"
-    },
-    {
-      "name_english": "Two of Cups",
-      "name_chinese": "圣杯二",
-      "keywords_english": ["Partnership", "Connection", "Unity", "Harmony", "Mutual Attraction"],
-      "keywords_chinese": ["伙伴关系", "连接", "团结", "和谐", "相互吸引"],
-      "description_english": "The Two of Cups signifies partnership, connection, and the unity of two souls. It represents harmony, mutual attraction, and the balance of emotions.",
-      "description_chinese": "圣杯二象征着伙伴关系、连接以及两个灵魂的团结。它代表和谐、相互吸引以及情感的平衡。",
-      "image_path": "twoofcups.jpeg"
-    },
-    {
-      "name_english": "Three of Cups",
-      "name_chinese": "圣杯三",
-      "keywords_english": ["Celebration", "Friendship", "Community", "Joy", "Abundance"],
-      "keywords_chinese": ["庆祝", "友谊", "社区", "喜悦", "丰盛"],
-      "description_english": "The Three of Cups represents celebration, friendship, and the joy of community. It signifies abundance, shared happiness, and the bonds of friendship.",
-      "description_chinese": "圣杯三代表庆祝、友谊以及社区的喜悦。它象征着丰盛、共享的幸福以及友谊的纽带。",
-      "image_path": "threeofcups.jpeg"
-    },
-    {
-      "name_english": "Four of Cups",
-      "name_chinese": "圣杯四",
-      "keywords_english": ["Apathy", "Contemplation", "Discontent", "Boredom", "Reevaluation"],
-      "keywords_chinese": ["冷漠", "沉思", "不满", "无聊", "重新评估"],
-      "description_english": "The Four of Cups signifies apathy, contemplation, and the need for reevaluation. It represents discontent, boredom, and the search for deeper meaning.",
-      "description_chinese": "圣杯四象征着冷漠、沉思以及重新评估的需要。它代表不满、无聊以及对更深层意义的追寻。",
-      "image_path": "fourofcups.jpeg"
-    },
-    {
-      "name_english": "Five of Cups",
-      "name_chinese": "圣杯五",
-      "keywords_english": ["Loss", "Grief", "Disappointment", "Regret", "Healing"],
-      "keywords_chinese": ["失去", "悲伤", "失望", "遗憾", "治愈"],
-      "description_english": "The Five of Cups represents loss, grief, and the pain of disappointment. It signifies regret, healing, and the need to focus on what remains.",
-      "description_chinese": "圣杯五代表失去、悲伤以及失望的痛苦。它象征着遗憾、治愈以及关注剩余事物的需要。",
-      "image_path": "fiveofcups.jpeg"
-    },
-    {
-      "name_english": "Six of Cups",
-      "name_chinese": "圣杯六",
-      "keywords_english": ["Nostalgia", "Memories", "Innocence", "Kindness", "Reunion"],
-      "keywords_chinese": ["怀旧", "回忆", "天真", "善良", "重聚"],
-      "description_english": "The Six of Cups signifies nostalgia, memories, and the innocence of childhood. It represents kindness, reunion, and the joy of reconnecting with the past.",
-      "description_chinese": "圣杯六象征着怀旧、回忆以及童年的天真。它代表善良、重聚以及与过去重新连接的喜悦。",
-      "image_path": "sixofcups.jpeg"
-    },
-    {
-      "name_english": "Seven of Cups",
-      "name_chinese": "圣杯七",
-      "keywords_english": ["Illusion", "Choices", "Fantasy", "Imagination", "Daydreaming"],
-      "keywords_chinese": ["幻觉", "选择", "幻想", "想象", "白日梦"],
-      "description_english": "The Seven of Cups represents illusion, choices, and the realm of fantasy. It signifies imagination, daydreaming, and the need to focus on reality.",
-      "description_chinese": "圣杯七代表幻觉、选择以及幻想的领域。它象征着想象、白日梦以及关注现实的需要。",
-      "image_path": "sevenofcups.jpeg"
-    },
-    {
-      "name_english": "Eight of Cups",
-      "name_chinese": "圣杯八",
-      "keywords_english": ["Abandonment", "Letting Go", "Search for Meaning", "Disillusionment", "Moving On"],
-      "keywords_chinese": ["放弃", "放手", "寻找意义", "幻灭", "继续前进"],
-      "description_english": "The Eight of Cups signifies abandonment, letting go, and the search for deeper meaning. It represents disillusionment, moving on, and the courage to leave the past behind.",
-      "description_chinese": "圣杯八象征着放弃、放手以及对更深层意义的追寻。它代表幻灭、继续前进以及放下过去的勇气。",
-      "image_path": "eightofcups.jpeg"
-    },
-    {
-      "name_english": "Nine of Cups",
-      "name_chinese": "圣杯九",
-      "keywords_english": ["Wishes Fulfilled", "Contentment", "Satisfaction", "Gratitude", "Abundance"],
-      "keywords_chinese": ["愿望实现", "满足", "满意", "感恩", "丰盛"],
-      "description_english": "The Nine of Cups represents wishes fulfilled, contentment, and the satisfaction of achieving your desires. It signifies gratitude, abundance, and the joy of life.",
-      "description_chinese": "圣杯九代表愿望实现、满足以及实现欲望的满意。它象征着感恩、丰盛以及生活的喜悦。",
-      "image_path": "nineofcups.jpeg"
-    },
-    {
-      "name_english": "Ten of Cups",
-      "name_chinese": "圣杯十",
-      "keywords_english": ["Happiness", "Harmony", "Family", "Joy", "Fulfillment"],
-      "keywords_chinese": ["幸福", "和谐", "家庭", "喜悦", "实现"],
-      "description_english": "The Ten of Cups signifies happiness, harmony, and the joy of family. It represents fulfillment, emotional abundance, and the realization of dreams.",
-      "description_chinese": "圣杯十象征着幸福、和谐以及家庭的喜悦。它代表实现、情感的丰盛以及梦想的实现。",
-      "image_path": "tenofcups.jpeg"
-    },
-    {
-      "name_english": "Page of Cups",
-      "name_chinese": "圣杯侍从",
-      "keywords_english": ["Sensitivity", "Intuition", "Creativity", "New Feelings", "Inspiration"],
-      "keywords_chinese": ["敏感", "直觉", "创造力", "新感觉", "灵感"],
-      "description_english": "The Page of Cups represents sensitivity, intuition, and the awakening of new feelings. It signifies creativity, inspiration, and the exploration of emotions.",
-      "description_chinese": "圣杯侍从代表敏感、直觉以及新感觉的觉醒。它象征着创造力、灵感以及对情感的探索。",
-      "image_path": "pageofcups.jpeg"
-    },
-    {
-      "name_english": "Knight of Cups",
-      "name_chinese": "圣杯骑士",
-      "keywords_english": ["Romance", "Charm", "Emotional Depth", "Idealization", "Pursuit"],
-      "keywords_chinese": ["浪漫", "魅力", "情感深度", "理想化", "追求"],
-      "description_english": "The Knight of Cups signifies romance, charm, and the pursuit of emotional depth. It represents idealization, the heart's desires, and the quest for love.",
-      "description_chinese": "圣杯骑士象征着浪漫、魅力以及对情感深度的追求。它代表理想化、内心的渴望以及对爱的追寻。",
-      "image_path": "knightofcups.jpeg"
-    },
-    {
-      "name_english": "Queen of Cups",
-      "name_chinese": "圣杯皇后",
-      "keywords_english": ["Compassion", "Emotional Balance", "Intuition", "Nurturing", "Empathy"],
-      "keywords_chinese": ["同情", "情感平衡", "直觉", "养育", "共情"],
-      "description_english": "The Queen of Cups represents compassion, emotional balance, and the power of intuition. It signifies nurturing, empathy, and the ability to connect with others on a deep level.",
-      "description_chinese": "圣杯皇后代表同情、情感平衡以及直觉的力量。它象征着养育、共情以及与他人建立深层连接的能力。",
-      "image_path": "queenofcups.jpeg"
-    },
-    {
-      "name_english": "King of Cups",
-      "name_chinese": "圣杯国王",
-      "keywords_english": ["Emotional Control", "Wisdom", "Diplomacy", "Compassion", "Balance"],
-      "keywords_chinese": ["情感控制", "智慧", "外交", "同情", "平衡"],
-      "description_english": "The King of Cups signifies emotional control, wisdom, and the ability to navigate complex emotions. It represents diplomacy, compassion, and the balance of heart and mind.",
-      "description_chinese": "圣杯国王象征着情感控制、智慧以及驾驭复杂情感的能力。它代表外交、同情以及心与脑的平衡。",
-      "image_path": "kingofcups.jpeg"
-    },
-    {
-      "name_english": "Ace of Swords",
-      "name_chinese": "宝剑王牌",
-      "keywords_english": ["Clarity", "Truth", "Mental Focus", "Breakthrough", "Justice"],
-      "keywords_chinese": ["清晰", "真理", "精神专注", "突破", "正义"],
-      "description_english": "The Ace of Swords represents clarity, truth, and the power of mental focus. It signifies breakthroughs, justice, and the ability to cut through confusion.",
-      "description_chinese": "宝剑王牌代表清晰、真理以及精神专注的力量。它象征着突破、正义以及消除困惑的能力。",
-      "image_path": "aceofswords.jpeg"
-    },
-    {
-      "name_english": "Two of Swords",
-      "name_chinese": "宝剑二",
-      "keywords_english": ["Indecision", "Stalemate", "Balance", "Choices", "Avoidance"],
-      "keywords_chinese": ["犹豫不决", "僵局", "平衡", "选择", "回避"],
-      "description_english": "The Two of Swords signifies indecision, stalemate, and the need to make a choice. It represents balance, avoidance, and the tension of opposing forces.",
-      "description_chinese": "宝剑二象征着犹豫不决、僵局以及做出选择的需要。它代表平衡、回避以及对立力量的紧张。",
-      "image_path": "twoofswords.jpeg"
-    },
-    {
-      "name_english": "Three of Swords",
-      "name_chinese": "宝剑三",
-      "keywords_english": ["Heartbreak", "Sorrow", "Pain", "Betrayal", "Healing"],
-      "keywords_chinese": ["心碎", "悲伤", "痛苦", "背叛", "治愈"],
-      "description_english": "The Three of Swords represents heartbreak, sorrow, and the pain of betrayal. It signifies healing, the need to face emotional pain, and the process of recovery.",
-      "description_chinese": "宝剑三代表心碎、悲伤以及背叛的痛苦。它象征着治愈、面对情感痛苦的需要以及恢复的过程。",
-      "image_path": "threeofswords.jpeg"
-    },
-    {
-      "name_english": "Four of Swords",
-      "name_chinese": "宝剑四",
-      "keywords_english": ["Rest", "Recovery", "Contemplation", "Peace", "Renewal"],
-      "keywords_chinese": ["休息", "恢复", "沉思", "和平", "更新"],
-      "description_english": "The Four of Swords signifies rest, recovery, and the need for contemplation. It represents peace, renewal, and the importance of taking a break to recharge.",
-      "description_chinese": "宝剑四象征着休息、恢复以及沉思的需要。它代表和平、更新以及休息以恢复能量的重要性。",
-      "image_path": "fourofswords.jpeg"
-    },
-    {
-      "name_english": "Five of Swords",
-      "name_chinese": "宝剑五",
-      "keywords_english": ["Conflict", "Defeat", "Hostility", "Unfairness", "Self-Interest"],
-      "keywords_chinese": ["冲突", "失败", "敌意", "不公平", "自私"],
-      "description_english": "The Five of Swords represents conflict, defeat, and the aftermath of a battle. It signifies hostility, unfairness, and the consequences of self-interest.",
-      "description_chinese": "宝剑五代表冲突、失败以及战斗的后果。它象征着敌意、不公平以及自私的后果。",
-      "image_path": "fiveofswords.jpeg"
-    },
-    {
-      "name_english": "Six of Swords",
-      "name_chinese": "宝剑六",
-      "keywords_english": ["Transition", "Moving On", "Healing", "Recovery", "Journey"],
-      "keywords_chinese": ["过渡", "继续前进", "治愈", "恢复", "旅程"],
-      "description_english": "The Six of Swords signifies transition, moving on, and the journey toward healing. It represents recovery, leaving the past behind, and finding peace.",
-      "description_chinese": "宝剑六象征着过渡、继续前进以及走向治愈的旅程。它代表恢复、放下过去以及找到和平。",
-      "image_path": "sixofswords.jpeg"
-    },
-    {
-      "name_english": "Seven of Swords",
-      "name_chinese": "宝剑七",
-      "keywords_english": ["Deception", "Betrayal", "Secrecy", "Strategy", "Avoidance"],
-      "keywords_chinese": ["欺骗", "背叛", "秘密", "策略", "回避"],
-      "description_english": "The Seven of Swords represents deception, betrayal, and the need for secrecy. It signifies strategy, avoidance, and the consequences of dishonesty.",
-      "description_chinese": "宝剑七代表欺骗、背叛以及保密的需要。它象征着策略、回避以及不诚实的后果。",
-      "image_path": "sevenofswords.jpeg"
-    },
-    {
-      "name_english": "Eight of Swords",
-      "name_chinese": "宝剑八",
-      "keywords_english": ["Restriction", "Isolation", "Fear", "Self-Limitation", "Breaking Free"],
-      "keywords_chinese": ["限制", "孤立", "恐惧", "自我限制", "挣脱"],
-      "description_english": "The Eight of Swords signifies restriction, isolation, and the fear that holds you back. It represents self-limitation, the need to break free, and the power of perspective.",
-      "description_chinese": "宝剑八象征着限制、孤立以及阻碍你的恐惧。它代表自我限制、挣脱的需要以及视角的力量。",
-      "image_path": "eightofswords.jpeg"
-    },
-    {
-      "name_english": "Nine of Swords",
-      "name_chinese": "宝剑九",
-      "keywords_english": ["Anxiety", "Worry", "Fear", "Nightmares", "Despair"],
-      "keywords_chinese": ["焦虑", "担忧", "恐惧", "噩梦", "绝望"],
-      "description_english": "The Nine of Swords represents anxiety, worry, and the torment of fear. It signifies nightmares, despair, and the need to confront your inner demons.",
-      "description_chinese": "宝剑九代表焦虑、担忧以及恐惧的折磨。它象征着噩梦、绝望以及面对内心恶魔的需要。",
-      "image_path": "nineofswords.jpeg"
-    },
-    {
-      "name_english": "Ten of Swords",
-      "name_chinese": "宝剑十",
-      "keywords_english": ["Betrayal", "Endings", "Crisis", "Rock Bottom", "Recovery"],
-      "keywords_chinese": ["背叛", "结束", "危机", "谷底", "恢复"],
-      "description_english": "The Ten of Swords signifies betrayal, endings, and the pain of hitting rock bottom. It represents crisis, the need for recovery, and the promise of a new beginning.",
-      "description_chinese": "宝剑十象征着背叛、结束以及触底的痛苦。它代表危机、恢复的需要以及新开始的承诺。",
-      "image_path": "tenofswords.jpeg"
-    },
-    {
-      "name_english": "Page of Swords",
-      "name_chinese": "宝剑侍从",
-      "keywords_english": ["Curiosity", "Ideas", "Communication", "Vigilance", "Mental Agility"],
-      "keywords_chinese": ["好奇心", "想法", "沟通", "警觉", "思维敏捷"],
-      "description_english": "The Page of Swords represents curiosity, new ideas, and the power of communication. It signifies vigilance, mental agility, and the need to stay alert.",
-      "description_chinese": "宝剑侍从代表好奇心、新想法以及沟通的力量。它象征着警觉、思维敏捷以及保持警惕的需要。",
-      "image_path": "pageofswords.jpeg"
-    },
-    {
-      "name_english": "Knight of Swords",
-      "name_chinese": "宝剑骑士",
-      "keywords_english": ["Ambition", "Action", "Speed", "Determination", "Focus"],
-      "keywords_chinese": ["野心", "行动", "速度", "决心", "专注"],
-      "description_english": "The Knight of Swords signifies ambition, action, and the drive to achieve goals quickly. It represents determination, focus, and the need to stay on course.",
-      "description_chinese": "宝剑骑士象征着野心、行动以及快速实现目标的动力。它代表决心、专注以及保持方向的需要。",
-      "image_path": "knightofswords.jpeg"
-    },
-    {
-      "name_english": "Queen of Swords",
-      "name_chinese": "宝剑皇后",
-      "keywords_english": ["Clarity", "Intelligence", "Objectivity", "Independence", "Truth"],
-      "keywords_chinese": ["清晰", "智慧", "客观", "独立", "真理"],
-      "description_english": "The Queen of Swords represents clarity, intelligence, and the power of objectivity. It signifies independence, truth, and the ability to see through deception.",
-      "description_chinese": "宝剑皇后代表清晰、智慧以及客观的力量。它象征着独立、真理以及看穿欺骗的能力。",
-      "image_path": "queenofswords.jpeg"
-    },
-    {
-      "name_english": "King of Swords",
-      "name_chinese": "宝剑国王",
-      "keywords_english": ["Authority", "Logic", "Decision-Making", "Justice", "Intellect"],
-      "keywords_chinese": ["权威", "逻辑", "决策", "正义", "智力"],
-      "description_english": "The King of Swords signifies authority, logic, and the power of decision-making. It represents justice, intellect, and the ability to lead with wisdom.",
-      "description_chinese": "宝剑国王象征着权威、逻辑以及决策的力量。它代表正义、智力以及以智慧领导的能力。",
-      "image_path": "kingofswords.jpeg"
-    },
-    {
-      "name_english": "Ace of Pentacles",
-      "name_chinese": "星币王牌",
-      "keywords_english": ["Opportunity", "Prosperity", "Manifestation", "Abundance", "New Beginnings"],
-      "keywords_chinese": ["机会", "繁荣", "显化", "丰盛", "新开始"],
-      "description_english": "The Ace of Pentacles represents opportunity, prosperity, and the manifestation of abundance. It signifies new beginnings, financial stability, and the potential for growth.",
-      "description_chinese": "星币王牌代表机会、繁荣以及丰盛的显化。它象征着新开始、财务稳定以及增长的潜力。",
-      "image_path": "aceofpentacles.jpeg"
-    },
-    {
-      "name_english": "Two of Pentacles",
-      "name_chinese": "星币二",
-      "keywords_english": ["Balance", "Adaptability", "Flexibility", "Prioritization", "Change"],
-      "keywords_chinese": ["平衡", "适应性", "灵活性", "优先级", "变化"],
-      "description_english": "The Two of Pentacles signifies balance, adaptability, and the need to juggle multiple priorities. It represents flexibility, change, and the ability to stay grounded.",
-      "description_chinese": "星币二象征着平衡、适应性以及处理多个优先事项的需要。它代表灵活性、变化以及保持稳定的能力。",
-      "image_path": "twoofpentacles.jpeg"
-    },
-    {
-      "name_english": "Three of Pentacles",
-      "name_chinese": "星币三",
-      "keywords_english": ["Teamwork", "Collaboration", "Skill", "Planning", "Mastery"],
-      "keywords_chinese": ["团队合作", "协作", "技能", "计划", "精通"],
-      "description_english": "The Three of Pentacles represents teamwork, collaboration, and the development of skills. It signifies planning, mastery, and the rewards of hard work.",
-      "description_chinese": "星币三代表团队合作、协作以及技能的发展。它象征着计划、精通以及辛勤工作的回报。",
-      "image_path": "threeofpentacles.jpeg"
-    },
-    {
-      "name_english": "Four of Pentacles",
-      "name_chinese": "星币四",
-      "keywords_english": ["Stability", "Security", "Control", "Possessiveness", "Conservation"],
-      "keywords_chinese": ["稳定", "安全", "控制", "占有欲", "保守"],
-      "description_english": "The Four of Pentacles signifies stability, security, and the need for control. It represents possessiveness, conservation, and the fear of loss.",
-      "description_chinese": "星币四象征着稳定、安全以及对控制的需要。它代表占有欲、保守以及对失去的恐惧。",
-      "image_path": "fourofpentacles.jpeg"
-    },
-    {
-      "name_english": "Five of Pentacles",
-      "name_chinese": "星币五",
-      "keywords_english": ["Hardship", "Poverty", "Isolation", "Struggle", "Support"],
-      "keywords_chinese": ["困难", "贫穷", "孤立", "挣扎", "支持"],
-      "description_english": "The Five of Pentacles represents hardship, poverty, and the feeling of isolation. It signifies struggle, the need for support, and the hope for better times.",
-      "description_chinese": "星币五代表困难、贫穷以及孤立的感觉。它象征着挣扎、支持的需要以及对更好时光的希望。",
-      "image_path": "fiveofpentacles.jpeg"
-    },
-    {
-      "name_english": "Six of Pentacles",
-      "name_chinese": "星币六",
-      "keywords_english": ["Generosity", "Charity", "Sharing", "Giving", "Receiving"],
-      "keywords_chinese": ["慷慨", "慈善", "分享", "给予", "接受"],
-      "description_english": "The Six of Pentacles signifies generosity, charity, and the act of sharing. It represents giving, receiving, and the balance of resources.",
-      "description_chinese": "星币六象征着慷慨、慈善以及分享的行为。它代表给予、接受以及资源的平衡。",
-      "image_path": "sixofpentacles.jpeg"
-    },
-    {
-      "name_english": "Seven of Pentacles",
-      "name_chinese": "星币七",
-      "keywords_english": ["Patience", "Investment", "Growth", "Rewards", "Reflection"],
-      "keywords_chinese": ["耐心", "投资", "成长", "回报", "反思"],
-      "description_english": "The Seven of Pentacles represents patience, investment, and the growth of your efforts. It signifies rewards, reflection, and the need to wait for results.",
-      "description_chinese": "星币七代表耐心、投资以及努力的成长。它象征着回报、反思以及等待结果的需要。",
-      "image_path": "sevenofpentacles.jpeg"
-    },
-    {
-      "name_english": "Eight of Pentacles",
-      "name_chinese": "星币八",
-      "keywords_english": ["Diligence", "Skill", "Craftsmanship", "Hard Work", "Attention to Detail"],
-      "keywords_chinese": ["勤奋", "技能", "工艺", "辛勤工作", "注重细节"],
-      "description_english": "The Eight of Pentacles signifies diligence, skill, and the pursuit of craftsmanship. It represents hard work, attention to detail, and the mastery of a craft.",
-      "description_chinese": "星币八象征着勤奋、技能以及对工艺的追求。它代表辛勤工作、注重细节以及对一门手艺的精通。",
-      "image_path": "eightofpentacles.jpeg"
-    },
-    {
-      "name_english": "Nine of Pentacles",
-      "name_chinese": "星币九",
-      "keywords_english": ["Luxury", "Abundance", "Self-Sufficiency", "Independence", "Enjoyment"],
-      "keywords_chinese": ["奢华", "丰盛", "自给自足", "独立", "享受"],
-      "description_english": "The Nine of Pentacles represents luxury, abundance, and the rewards of self-sufficiency. It signifies independence, enjoyment, and the fruits of your labor.",
-      "description_chinese": "星币九代表奢华、丰盛以及自给自足的回报。它象征着独立、享受以及劳动的成果。",
-      "image_path": "nineofpentacles.jpeg"
-    },
-    {
-      "name_english": "Ten of Pentacles",
-      "name_chinese": "星币十",
-      "keywords_english": ["Wealth", "Legacy", "Family", "Stability", "Prosperity"],
-      "keywords_chinese": ["财富", "遗产", "家庭", "稳定", "繁荣"],
-      "description_english": "The Ten of Pentacles signifies wealth, legacy, and the stability of family. It represents prosperity, abundance, and the fulfillment of long-term goals.",
-      "description_chinese": "星币十象征着财富、遗产以及家庭的稳定。它代表繁荣、丰盛以及长期目标的实现。",
-      "image_path": "tenofpentacles.jpeg"
-    },
-    {
-      "name_english": "Page of Pentacles",
-      "name_chinese": "星币侍从",
-      "keywords_english": ["Opportunity", "Learning", "Manifestation", "Practicality", "New Ventures"],
-      "keywords_chinese": ["机会", "学习", "显化", "实用性", "新事业"],
-      "description_english": "The Page of Pentacles represents opportunity, learning, and the manifestation of practical goals. It signifies new ventures, the pursuit of knowledge, and the potential for growth.",
-      "description_chinese": "星币侍从代表机会、学习以及实际目标的显化。它象征着新事业、知识的追求以及增长的潜力。",
-      "image_path": "pageofpentacles.jpeg"
-    },
-    {
-      "name_english": "Knight of Pentacles",
-      "name_chinese": "星币骑士",
-      "keywords_english": ["Reliability", "Responsibility", "Hard Work", "Persistence", "Practicality"],
-      "keywords_chinese": ["可靠", "责任", "辛勤工作", "坚持", "实用性"],
-      "description_english": "The Knight of Pentacles signifies reliability, responsibility, and the value of hard work. It represents persistence, practicality, and the steady pursuit of goals.",
-      "description_chinese": "星币骑士象征着可靠、责任以及辛勤工作的价值。它代表坚持、实用性以及稳步追求目标。",
-      "image_path": "knightofpentacles.jpeg"
-    },
-    {
-      "name_english": "Queen of Pentacles",
-      "name_chinese": "星币皇后",
-      "keywords_english": ["Nurturing", "Practicality", "Abundance", "Comfort", "Security"],
-      "keywords_chinese": ["养育", "实用性", "丰盛", "舒适", "安全"],
-      "description_english": "The Queen of Pentacles represents nurturing, practicality, and the abundance of life. It signifies comfort, security, and the ability to create a stable environment.",
-      "description_chinese": "星币皇后代表养育、实用性以及生活的丰盛。它象征着舒适、安全以及创造稳定环境的能力。",
-      "image_path": "queenofpentacles.jpeg"
-    },
-    {
-      "name_english": "King of Pentacles",
-      "name_chinese": "星币国王",
-      "keywords_english": ["Wealth", "Stability", "Leadership", "Success", "Abundance"],
-      "keywords_chinese": ["财富", "稳定", "领导力", "成功", "丰盛"],
-      "description_english": "The King of Pentacles signifies wealth, stability, and the power of leadership. It represents success, abundance, and the ability to manage resources wisely.",
-      "description_chinese": "星币国王象征着财富、稳定以及领导力的力量。它代表成功、丰盛以及明智管理资源的能力。",
-      "image_path": "kingofpentacles.jpeg"
-    }
-  ]
+  {
+    "nameEnglish": "The Fool",
+    "nameChinese": "愚者",
+    "keywordsEnglish": [
+      "Beginnings",
+      "Spontaneity",
+      "Adventure",
+      "Innocence",
+      "Leap of Faith"
+    ],
+    "keywordsReversedEnglish": [
+      "Naivety",
+      "Recklessness",
+      "Carelessness",
+      "Lack of Focus",
+      "Folly"
+    ],
+    "keywordsChinese": [
+      "开始",
+      "自发性",
+      "冒险",
+      "天真",
+      "信念之跃"
+    ],
+    "keywordsReversedChinese": [
+      "天真",
+      "鲁莽",
+      "粗心",
+      "缺乏专注",
+      "愚蠢"
+    ],
+    "descriptionEnglish": "The Fool represents new beginnings, taking risks, and embracing the unknown. It symbolizes a sense of adventure and the courage to step into the unknown.",
+    "descriptionReversedEnglish": "When reversed, The Fool indicates naivety, recklessness, and a lack of focus. It suggests that the querent may be acting without proper consideration or planning.",
+    "descriptionChinese": "愚者代表新的开始、冒险和拥抱未知。它象征着冒险精神和踏入未知的勇气。",
+    "descriptionReversedChinese": "逆位时，愚者表示天真、鲁莽和缺乏专注。它暗示求问者可能在没有适当考虑或计划的情况下行动。",
+    "imagePath": "thefool.jpeg"
+  },
+  {
+    "nameEnglish": "The Magician",
+    "nameChinese": "魔术师",
+    "keywordsEnglish": [
+      "Skill",
+      "Confidence",
+      "Manifestation",
+      "Resourcefulness",
+      "Action"
+    ],
+    "keywordsReversedEnglish": [
+      "Deception",
+      "Inaction",
+      "Lack of Focus",
+      "Poor Planning",
+      "Overconfidence"
+    ],
+    "keywordsChinese": [
+      "技巧",
+      "自信",
+      "显化",
+      "机智",
+      "行动"
+    ],
+    "keywordsReversedChinese": [
+      "欺骗",
+      "不行动",
+      "缺乏专注",
+      "计划不周",
+      "过度自信"
+    ],
+    "descriptionEnglish": "The Magician represents skill, confidence, and the ability to manifest ideas into reality. It symbolizes resourcefulness and taking action.",
+    "descriptionReversedEnglish": "When reversed, The Magician indicates deception, inaction, and poor planning. It suggests that the querent may be overconfident or not using their resources effectively.",
+    "descriptionChinese": "魔术师代表技巧、自信和将想法变为现实的能力。它象征着机智和采取行动。",
+    "descriptionReversedChinese": "逆位时，魔术师表示欺骗、不行动和计划不周。它暗示求问者可能过于自信或没有有效利用资源。",
+    "imagePath": "themagician.jpeg"
+  },
+  {
+    "nameEnglish": "The High Priestess",
+    "nameChinese": "女祭司",
+    "keywordsEnglish": [
+      "Intuition",
+      "Mystery",
+      "Subconscious",
+      "Wisdom",
+      "Divine Feminine"
+    ],
+    "keywordsReversedEnglish": [
+      "Ignorance",
+      "Lack of Insight",
+      "Superficiality",
+      "Misguided",
+      "Deception"
+    ],
+    "keywordsChinese": [
+      "直觉",
+      "神秘",
+      "潜意识",
+      "智慧",
+      "神圣女性"
+    ],
+    "keywordsReversedChinese": [
+      "无知",
+      "缺乏洞察力",
+      "肤浅",
+      "误导",
+      "欺骗"
+    ],
+    "descriptionEnglish": "The High Priestess represents intuition, mystery, and the subconscious. She symbolizes wisdom and the divine feminine.",
+    "descriptionReversedEnglish": "When reversed, The High Priestess indicates ignorance, lack of insight, and superficiality. It suggests that the querent may be misguided or deceived.",
+    "descriptionChinese": "女祭司代表直觉、神秘和潜意识。她象征着智慧和神圣女性。",
+    "descriptionReversedChinese": "逆位时，女祭司表示无知、缺乏洞察力和肤浅。它暗示求问者可能被误导或欺骗。",
+    "imagePath": "thehighpriestess.jpeg"
+  },
+  {
+    "nameEnglish": "The Empress",
+    "nameChinese": "女皇",
+    "keywordsEnglish": [
+      "Fertility",
+      "Nurturing",
+      "Creativity",
+      "Motherhood",
+      "Abundance"
+    ],
+    "keywordsReversedEnglish": [
+      "Infertility",
+      "Neglect",
+      "Lack of Creativity",
+      "Emotional Deprivation",
+      "Insecurity"
+    ],
+    "keywordsChinese": [
+      "生育",
+      "养育",
+      "创造力",
+      "母性",
+      "富饶"
+    ],
+    "keywordsReversedChinese": [
+      "不育",
+      "忽视",
+      "缺乏创造力",
+      "情感匮乏",
+      "不安全"
+    ],
+    "descriptionEnglish": "The Empress represents fertility, nurturing, and creativity. She symbolizes motherhood and abundance.",
+    "descriptionReversedEnglish": "When reversed, The Empress indicates infertility, neglect, and a lack of creativity. It suggests emotional deprivation and insecurity.",
+    "descriptionChinese": "女皇代表生育、养育和创造力。她象征着母性和富饶。",
+    "descriptionReversedChinese": "逆位时，女皇表示不育、忽视和缺乏创造力。它暗示情感匮乏和不安全。",
+    "imagePath": "theempress.jpeg"
+  },
+  {
+    "nameEnglish": "The Emperor",
+    "nameChinese": "皇帝",
+    "keywordsEnglish": [
+      "Authority",
+      "Structure",
+      "Control",
+      "Fatherhood",
+      "Stability"
+    ],
+    "keywordsReversedEnglish": [
+      "Tyranny",
+      "Inflexibility",
+      "Lack of Control",
+      "Insecurity",
+      "Weakness"
+    ],
+    "keywordsChinese": [
+      "权威",
+      "结构",
+      "控制",
+      "父性",
+      "稳定"
+    ],
+    "keywordsReversedChinese": [
+      "暴政",
+      "僵化",
+      "缺乏控制",
+      "不安全",
+      "软弱"
+    ],
+    "descriptionEnglish": "The Emperor represents authority, structure, and control. He symbolizes fatherhood and stability.",
+    "descriptionReversedEnglish": "When reversed, The Emperor indicates tyranny, inflexibility, and a lack of control. It suggests insecurity and weakness.",
+    "descriptionChinese": "皇帝代表权威、结构和控制。他象征着父性和稳定。",
+    "descriptionReversedChinese": "逆位时，皇帝表示暴政、僵化和缺乏控制。它暗示不安全和软弱。",
+    "imagePath": "theemperor.jpeg"
+  },
+  {
+    "nameEnglish": "The Hierophant",
+    "nameChinese": "教皇",
+    "keywordsEnglish": [
+      "Spirituality",
+      "Tradition",
+      "Guidance",
+      "Mentorship",
+      "Religion"
+    ],
+    "keywordsReversedEnglish": [
+      "Dogmatism",
+      "Rebellion",
+      "Lack of Guidance",
+      "Misguidance",
+      "Heresy"
+    ],
+    "keywordsChinese": [
+      "灵性",
+      "传统",
+      "指导",
+      "导师",
+      "宗教"
+    ],
+    "keywordsReversedChinese": [
+      "教条主义",
+      "叛逆",
+      "缺乏指导",
+      "误导",
+      "异端"
+    ],
+    "descriptionEnglish": "The Hierophant represents spirituality, tradition, and guidance. He symbolizes mentorship and religion.",
+    "descriptionReversedEnglish": "When reversed, The Hierophant indicates dogmatism, rebellion, and a lack of guidance. It suggests misguidance and heresy.",
+    "descriptionChinese": "教皇代表灵性、传统和指导。他象征着导师和宗教。",
+    "descriptionReversedChinese": "逆位时，教皇表示教条主义、叛逆和缺乏指导。它暗示误导和异端。",
+    "imagePath": "thehierophant.jpeg"
+  },
+  {
+    "nameEnglish": "The Lovers",
+    "nameChinese": "恋人",
+    "keywordsEnglish": [
+      "Choice",
+      "Harmony",
+      "Union",
+      "Love",
+      "Partnership"
+    ],
+    "keywordsReversedEnglish": [
+      "Conflict",
+      "Disunion",
+      "Indecisiveness",
+      "Lack of Love",
+      "Betrayal"
+    ],
+    "keywordsChinese": [
+      "选择",
+      "和谐",
+      "联合",
+      "爱",
+      "伙伴关系"
+    ],
+    "keywordsReversedChinese": [
+      "冲突",
+      "分裂",
+      "优柔寡断",
+      "缺乏爱",
+      "背叛"
+    ],
+    "descriptionEnglish": "The Lovers represent choice, harmony, and union. They symbolize love and partnership.",
+    "descriptionReversedEnglish": "When reversed, The Lovers indicate conflict, disunion, and indecisiveness. It suggests a lack of love and betrayal.",
+    "descriptionChinese": "恋人代表选择、和谐和联合。他们象征着爱和伙伴关系。",
+    "descriptionReversedChinese": "逆位时，恋人表示冲突、分裂和优柔寡断。它暗示缺乏爱和背叛。",
+    "imagePath": "thelovers.jpeg"
+  },
+  {
+    "nameEnglish": "The Chariot",
+    "nameChinese": "战车牌",
+    "keywordsEnglish": [
+      "Victory",
+      "Determination",
+      "Willpower",
+      "Control",
+      "Conquest"
+    ],
+    "keywordsReversedEnglish": [
+      "Failure",
+      "Lack of Control",
+      "Lack of Direction",
+      "Defeat",
+      "Overconfidence"
+    ],
+    "keywordsChinese": [
+      "胜利",
+      "决心",
+      "意志力",
+      "控制",
+      "征服"
+    ],
+    "keywordsReversedChinese": [
+      "失败",
+      "缺乏控制",
+      "缺乏方向",
+      "失败",
+      "过度自信"
+    ],
+    "descriptionEnglish": "The Chariot represents victory, determination, and willpower. It symbolizes control and conquest.",
+    "descriptionReversedEnglish": "When reversed, The Chariot indicates failure, lack of control, and lack of direction. It suggests defeat and overconfidence.",
+    "descriptionChinese": "战车牌代表胜利、决心和意志力。它象征着控制和征服。",
+    "descriptionReversedChinese": "逆位时，战车牌表示失败、缺乏控制和缺乏方向。它暗示失败和过度自信。",
+    "imagePath": "thechariot.jpeg"
+  },
+  {
+    "nameEnglish": "Strength",
+    "nameChinese": "力量",
+    "keywordsEnglish": [
+      "Courage",
+      "Inner Strength",
+      "Compassion",
+      "Patience",
+      "Empowerment"
+    ],
+    "keywordsReversedEnglish": [
+      "Weakness",
+      "Lack of Courage",
+      "Impatience",
+      "Self-Doubt",
+      "Self-Destruction"
+    ],
+    "keywordsChinese": [
+      "勇气",
+      "内在力量",
+      "同情心",
+      "耐心",
+      "赋能"
+    ],
+    "keywordsReversedChinese": [
+      "软弱",
+      "缺乏勇气",
+      "不耐烦",
+      "自我怀疑",
+      "自我毁灭"
+    ],
+    "descriptionEnglish": "Strength represents courage, inner strength, and compassion. It symbolizes patience and empowerment.",
+    "descriptionReversedEnglish": "When reversed, Strength indicates weakness, lack of courage, and impatience. It suggests self-doubt and self-destruction.",
+    "descriptionChinese": "力量代表勇气、内在力量和同情心。它象征着耐心和赋能。",
+    "descriptionReversedChinese": "逆位时，力量表示软弱、缺乏勇气和不耐烦。它暗示自我怀疑和自我毁灭。",
+    "imagePath": "strength.jpeg"
+  },
+  {
+    "nameEnglish": "The Hermit",
+    "nameChinese": "隐士",
+    "keywordsEnglish": [
+      "Solitude",
+      "Introspection",
+      "Wisdom",
+      "Guidance",
+      "Inner Search"
+    ],
+    "keywordsReversedEnglish": [
+      "Isolation",
+      "Lack of Direction",
+      "Misguidance",
+      "Selfishness",
+      "Confusion"
+    ],
+    "keywordsChinese": [
+      "孤独",
+      "内省",
+      "智慧",
+      "指导",
+      "内心探索"
+    ],
+    "keywordsReversedChinese": [
+      "孤立",
+      "缺乏方向",
+      "误导",
+      "自私",
+      "困惑"
+    ],
+    "descriptionEnglish": "The Hermit represents solitude, introspection, and wisdom. He symbolizes guidance and an inner search for truth.",
+    "descriptionReversedEnglish": "When reversed, The Hermit indicates isolation, lack of direction, and misguidance. It suggests selfishness and confusion.",
+    "descriptionChinese": "隐士代表孤独、内省和智慧。他象征着指导和对内心真理的探索。",
+    "descriptionReversedChinese": "逆位时，隐士表示孤立、缺乏方向和误导。它暗示自私和困惑。",
+    "imagePath": "thehermit.jpeg"
+  },
+  {
+    "nameEnglish": "Wheel of Fortune",
+    "nameChinese": "命运之轮",
+    "keywordsEnglish": [
+      "Luck",
+      "Fate",
+      "Change",
+      "Cycles",
+      "Opportunity"
+    ],
+    "keywordsReversedEnglish": [
+      "Bad Luck",
+      "Stagnation",
+      "Lack of Control",
+      "Misfortune",
+      "Obstacles"
+    ],
+    "keywordsChinese": [
+      "好运",
+      "命运",
+      "变化",
+      "循环",
+      "机会"
+    ],
+    "keywordsReversedChinese": [
+      "坏运气",
+      "停滞",
+      "缺乏控制",
+      "不幸",
+      "障碍"
+    ],
+    "descriptionEnglish": "The Wheel of Fortune represents luck, fate, and change. It symbolizes cycles and opportunity.",
+    "descriptionReversedEnglish": "When reversed, The Wheel of Fortune indicates bad luck, stagnation, and lack of control. It suggests misfortune and obstacles.",
+    "descriptionChinese": "命运之轮代表好运、命运和变化。它象征着循环和机会。",
+    "descriptionReversedChinese": "逆位时，命运之轮表示坏运气、停滞和缺乏控制。它暗示不幸和障碍。",
+    "imagePath": "wheeloffortune.jpeg"
+  },
+  {
+    "nameEnglish": "Justice",
+    "nameChinese": "正义",
+    "keywordsEnglish": [
+      "Fairness",
+      "Truth",
+      "Balance",
+      "Law",
+      "Judgment"
+    ],
+    "keywordsReversedEnglish": [
+      "Injustice",
+      "Bias",
+      "Unfairness",
+      "Deception",
+      "Dishonesty"
+    ],
+    "keywordsChinese": [
+      "公平",
+      "真相",
+      "平衡",
+      "法律",
+      "判断"
+    ],
+    "keywordsReversedChinese": [
+      "不公正",
+      "偏见",
+      "不公平",
+      "欺骗",
+      "不诚实"
+    ],
+    "descriptionEnglish": "Justice represents fairness, truth, and balance. It symbolizes law and judgment.",
+    "descriptionReversedEnglish": "When reversed, Justice indicates injustice, bias, and unfairness. It suggests deception and dishonesty.",
+    "descriptionChinese": "正义代表公平、真相和平衡。它象征着法律和判断。",
+    "descriptionReversedChinese": "逆位时，正义表示不公正、偏见和不公平。它暗示欺骗和不诚实。",
+    "imagePath": "justice.jpeg"
+  },
+  {
+    "nameEnglish": "The Hanged Man",
+    "nameChinese": "倒吊人",
+    "keywordsEnglish": [
+      "Sacrifice",
+      "New Perspective",
+      "Letting Go",
+      "Martyrdom",
+      "Surrender"
+    ],
+    "keywordsReversedEnglish": [
+      "Selfishness",
+      "Lack of Sacrifice",
+      "Stubbornness",
+      "Inaction",
+      "Resentment"
+    ],
+    "keywordsChinese": [
+      "牺牲",
+      "新视角",
+      "放手",
+      "殉道",
+      "投降"
+    ],
+    "keywordsReversedChinese": [
+      "自私",
+      "缺乏牺牲",
+      "固执",
+      "不行动",
+      "怨恨"
+    ],
+    "descriptionEnglish": "The Hanged Man represents sacrifice, a new perspective, and letting go. It symbolizes martyrdom and surrender.",
+    "descriptionReversedEnglish": "When reversed, The Hanged Man indicates selfishness, lack of sacrifice, and stubbornness. It suggests inaction and resentment.",
+    "descriptionChinese": "倒吊人代表牺牲、新视角和放手。它象征着殉道和投降。",
+    "descriptionReversedChinese": "逆位时，倒吊人表示自私、缺乏牺牲和固执。它暗示不行动和怨恨。",
+    "imagePath": "thehangedman.jpeg"
+  },
+  {
+    "nameEnglish": "Death",
+    "nameChinese": "死神",
+    "keywordsEnglish": [
+      "Transformation",
+      "Endings",
+      "New Beginnings",
+      "Release",
+      "Change"
+    ],
+    "keywordsReversedEnglish": [
+      "Fear",
+      "Stagnation",
+      "Resistance",
+      "Denial",
+      "Avoidance"
+    ],
+    "keywordsChinese": [
+      "转变",
+      "结束",
+      "新开始",
+      "释放",
+      "变化"
+    ],
+    "keywordsReversedChinese": [
+      "恐惧",
+      "停滞",
+      "抵抗",
+      "否认",
+      "回避"
+    ],
+    "descriptionEnglish": "Death represents transformation, endings, and new beginnings. It symbolizes release and change.",
+    "descriptionReversedEnglish": "When reversed, Death indicates fear, stagnation, and resistance. It suggests denial and avoidance.",
+    "descriptionChinese": "死神代表转变、结束和新开始。它象征着释放和变化。",
+    "descriptionReversedChinese": "逆位时，死神表示恐惧、停滞和抵抗。它暗示否认和回避。",
+    "imagePath": "death.jpeg"
+  },
+  {
+    "nameEnglish": "Temperance",
+    "nameChinese": "节制",
+    "keywordsEnglish": [
+      "Balance",
+      "Harmony",
+      "Moderation",
+      "Blending",
+      "Healing"
+    ],
+    "keywordsReversedEnglish": [
+      "Imbalance",
+      "Conflict",
+      "Excess",
+      "Separation",
+      "Disorder"
+    ],
+    "keywordsChinese": [
+      "平衡",
+      "和谐",
+      "节制",
+      "融合",
+      "治愈"
+    ],
+    "keywordsReversedChinese": [
+      "失衡",
+      "冲突",
+      "过量",
+      "分离",
+      "混乱"
+    ],
+    "descriptionEnglish": "Temperance represents balance, harmony, and moderation. It symbolizes blending and healing.",
+    "descriptionReversedEnglish": "When reversed, Temperance indicates imbalance, conflict, and excess. It suggests separation and disorder.",
+    "descriptionChinese": "节制代表平衡、和谐和节制。它象征着融合和治愈。",
+    "descriptionReversedChinese": "逆位时，节制表示失衡、冲突和过量。它暗示分离和混乱。",
+    "imagePath": "temperance.jpeg"
+  },
+  {
+    "nameEnglish": "The Devil",
+    "nameChinese": "恶魔",
+    "keywordsEnglish": [
+      "Bondage",
+      "Materialism",
+      "Addiction",
+      "Oppression",
+      "Limitation"
+    ],
+    "keywordsReversedEnglish": [
+      "Liberation",
+      "Awareness",
+      "Breaking Free",
+      "Self-Realization",
+      "Overcoming"
+    ],
+    "keywordsChinese": [
+      "束缚",
+      "物质主义",
+      "上瘾",
+      "压迫",
+      "限制"
+    ],
+    "keywordsReversedChinese": [
+      "解放",
+      "觉醒",
+      "解脱",
+      "自我实现",
+      "克服"
+    ],
+    "descriptionEnglish": "The Devil represents bondage, materialism, and addiction. It symbolizes oppression and limitation.",
+    "descriptionReversedEnglish": "When reversed, The Devil indicates liberation, awareness, and breaking free. It suggests self-realization and overcoming.",
+    "descriptionChinese": "恶魔代表束缚、物质主义和上瘾。它象征着压迫和限制。",
+    "descriptionReversedChinese": "逆位时，恶魔表示解放、觉醒和解脱。它暗示自我实现和克服。",
+    "imagePath": "thedevil.jpeg"
+  },
+  {
+    "nameEnglish": "The Tower",
+    "nameChinese": "塔",
+    "keywordsEnglish": [
+      "Destruction",
+      "Crisis",
+      "Upheaval",
+      "Rebuilding",
+      "Awakening"
+    ],
+    "keywordsReversedEnglish": [
+      "Stability",
+      "False Security",
+      "Lack of Change",
+      "Resistance",
+      "Denial"
+    ],
+    "keywordsChinese": [
+      "毁灭",
+      "危机",
+      "动荡",
+      "重建",
+      "觉醒"
+    ],
+    "keywordsReversedChinese": [
+      "稳定",
+      "虚假的安全感",
+      "缺乏变化",
+      "抵抗",
+      "否认"
+    ],
+    "descriptionEnglish": "The Tower represents destruction, crisis, and upheaval. It symbolizes rebuilding and awakening.",
+    "descriptionReversedEnglish": "When reversed, The Tower indicates stability, false security, and a lack of change. It suggests resistance and denial.",
+    "descriptionChinese": "塔代表毁灭、危机和动荡。它象征着重建和觉醒。",
+    "descriptionReversedChinese": "逆位时，塔表示稳定、虚假的安全感和缺乏变化。它暗示抵抗和否认。",
+    "imagePath": "thetower.jpeg"
+  },
+  {
+    "nameEnglish": "The Star",
+    "nameChinese": "星星",
+    "keywordsEnglish": [
+      "Hope",
+      "Inspiration",
+      "Faith",
+      "Guidance",
+      "Renewal"
+    ],
+    "keywordsReversedEnglish": [
+      "Despair",
+      "Lack of Faith",
+      "Confusion",
+      "Misguidance",
+      "Stagnation"
+    ],
+    "keywordsChinese": [
+      "希望",
+      "灵感",
+      "信念",
+      "指导",
+      "更新"
+    ],
+    "keywordsReversedChinese": [
+      "绝望",
+      "缺乏信念",
+      "困惑",
+      "误导",
+      "停滞"
+    ],
+    "descriptionEnglish": "The Star represents hope, inspiration, and faith. It symbolizes guidance and renewal.",
+    "descriptionReversedEnglish": "When reversed, The Star indicates despair, lack of faith, and confusion. It suggests misguidance and stagnation.",
+    "descriptionChinese": "星星代表希望、灵感和信念。它象征着指导和更新。",
+    "descriptionReversedChinese": "逆位时，星星表示绝望、缺乏信念和困惑。它暗示误导和停滞。",
+    "imagePath": "thestar.jpeg"
+  },
+  {
+    "nameEnglish": "The Moon",
+    "nameChinese": "月亮",
+    "keywordsEnglish": [
+      "Illusion",
+      "Unconscious",
+      "Intuition",
+      "Fear",
+      "Mystery"
+    ],
+    "keywordsReversedEnglish": [
+      "Clarity",
+      "Awareness",
+      "Realization",
+      "Enlightenment",
+      "Revelation"
+    ],
+    "keywordsChinese": [
+      "幻象",
+      "潜意识",
+      "直觉",
+      "恐惧",
+      "神秘"
+    ],
+    "keywordsReversedChinese": [
+      "清晰",
+      "意识",
+      "认识",
+      "启蒙",
+      "启示"
+    ],
+    "descriptionEnglish": "The Moon represents illusion, the unconscious, and intuition. It symbolizes fear and mystery.",
+    "descriptionReversedEnglish": "When reversed, The Moon indicates clarity, awareness, and realization. It suggests enlightenment and revelation.",
+    "descriptionChinese": "月亮代表幻象、潜意识和直觉。它象征着恐惧和神秘。",
+    "descriptionReversedChinese": "逆位时，月亮表示清晰、意识和认识。它暗示启蒙和启示。",
+    "imagePath": "themoon.jpeg"
+  },
+  {
+    "nameEnglish": "The Sun",
+    "nameChinese": "太阳",
+    "keywordsEnglish": [
+      "Joy",
+      "Success",
+      "Positivity",
+      "Clarity",
+      "Vitality"
+    ],
+    "keywordsReversedEnglish": [
+      "Failure",
+      "Depression",
+      "Negativity",
+      "Confusion",
+      "Lack of Direction"
+    ],
+    "keywordsChinese": [
+      "快乐",
+      "成功",
+      "积极",
+      "清晰",
+      "活力"
+    ],
+    "keywordsReversedChinese": [
+      "失败",
+      "抑郁",
+      "消极",
+      "困惑",
+      "缺乏方向"
+    ],
+    "descriptionEnglish": "The Sun represents joy, success, and positivity. It symbolizes clarity and vitality.",
+    "descriptionReversedEnglish": "When reversed, The Sun indicates failure, depression, and negativity. It suggests confusion and a lack of direction.",
+    "descriptionChinese": "太阳代表快乐、成功和积极。它象征着清晰和活力。",
+    "descriptionReversedChinese": "逆位时，太阳表示失败、抑郁和消极。它暗示困惑和缺乏方向。",
+    "imagePath": "thesun.jpeg"
+  },
+  {
+    "nameEnglish": "Judgement",
+    "nameChinese": "审判",
+    "keywordsEnglish": [
+      "Awakening",
+      "Rebirth",
+      "Calling",
+      "Transformation",
+      "Judgment"
+    ],
+    "keywordsReversedEnglish": [
+      "Ignorance",
+      "Stagnation",
+      "Lack of Awareness",
+      "Denial",
+      "Indecision"
+    ],
+    "keywordsChinese": [
+      "觉醒",
+      "重生",
+      "召唤",
+      "转变",
+      "审判"
+    ],
+    "keywordsReversedChinese": [
+      "无知",
+      "停滞",
+      "缺乏意识",
+      "否认",
+      "优柔寡断"
+    ],
+    "descriptionEnglish": "Judgement represents awakening, rebirth, and a calling. It symbolizes transformation and judgment.",
+    "descriptionReversedEnglish": "When reversed, Judgement indicates ignorance, stagnation, and a lack of awareness. It suggests denial and indecision.",
+    "descriptionChinese": "审判代表觉醒、重生和召唤。它象征着转变和审判。",
+    "descriptionReversedChinese": "逆位时，审判表示无知、停滞和缺乏意识。它暗示否认和优柔寡断。",
+    "imagePath": "judgement.jpeg"
+  },
+  {
+    "nameEnglish": "The World",
+    "nameChinese": "世界",
+    "keywordsEnglish": [
+      "Completion",
+      "Fulfillment",
+      "Harmony",
+      "Unity",
+      "Perfection"
+    ],
+    "keywordsReversedEnglish": [
+      "Incompleteness",
+      "Discontent",
+      "Disunity",
+      "Lack of Harmony",
+      "Imperfection"
+    ],
+    "keywordsChinese": [
+      "完成",
+      "满足",
+      "和谐",
+      "统一",
+      "完美"
+    ],
+    "keywordsReversedChinese": [
+      "未完成",
+      "不满",
+      "不统一",
+      "缺乏和谐",
+      "不完美"
+    ],
+    "descriptionEnglish": "The World represents completion, fulfillment, and harmony. It symbolizes unity and perfection.",
+    "descriptionReversedEnglish": "When reversed, The World indicates incompleteness, discontent, and disunity. It suggests a lack of harmony and imperfection.",
+    "descriptionChinese": "世界代表完成、满足和和谐。它象征着统一和完美。",
+    "descriptionReversedChinese": "逆位时，世界表示未完成、不满和不统一。它暗示缺乏和谐和不完美。",
+    "imagePath": "theworld.jpeg"
+  },
+  {
+    "nameEnglish": "Ace of Wands",
+    "nameChinese": "权杖王牌",
+    "keywordsEnglish": [
+      "Potential",
+      "Creativity",
+      "Passion",
+      "Initiation",
+      "Energy"
+    ],
+    "keywordsReversedEnglish": [
+      "Blockage",
+      "Lack of Creativity",
+      "Lack of Passion",
+      "Inaction",
+      "Stagnation"
+    ],
+    "keywordsChinese": [
+      "潜力",
+      "创造力",
+      "激情",
+      "开始",
+      "能量"
+    ],
+    "keywordsReversedChinese": [
+      "阻碍",
+      "缺乏创造力",
+      "缺乏激情",
+      "不行动",
+      "停滞"
+    ],
+    "descriptionEnglish": "The Ace of Wands represents potential, creativity, and passion. It symbolizes initiation and energy.",
+    "descriptionReversedEnglish": "When reversed, the Ace of Wands indicates blockage, lack of creativity, and lack of passion. It suggests inaction and stagnation.",
+    "descriptionChinese": "权杖王牌代表潜力、创造力和激情。它象征着开始和能量。",
+    "descriptionReversedChinese": "逆位时，权杖王牌表示阻碍、缺乏创造力和缺乏激情。它暗示不行动和停滞。",
+    "imagePath": "aceofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Two of Wands",
+    "nameChinese": "权杖二",
+    "keywordsEnglish": [
+      "Leadership",
+      "Vision",
+      "Planning",
+      "Expansion",
+      "Control"
+    ],
+    "keywordsReversedEnglish": [
+      "Poor Leadership",
+      "Lack of Vision",
+      "Disorganization",
+      "Loss of Control",
+      "Overwhelm"
+    ],
+    "keywordsChinese": [
+      "领导力",
+      "远见",
+      "计划",
+      "扩张",
+      "控制"
+    ],
+    "keywordsReversedChinese": [
+      "领导不力",
+      "缺乏远见",
+      "混乱",
+      "失去控制",
+      "不知所措"
+    ],
+    "descriptionEnglish": "The Two of Wands represents leadership, vision, and planning. It symbolizes expansion and control.",
+    "descriptionReversedEnglish": "When reversed, the Two of Wands indicates poor leadership, lack of vision, and disorganization. It suggests loss of control and overwhelm.",
+    "descriptionChinese": "权杖二代表领导力、远见和计划。它象征着扩张和控制。",
+    "descriptionReversedChinese": "逆位时，权杖二表示领导不力、缺乏远见和混乱。它暗示失去控制和不知所措。",
+    "imagePath": "twoofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Three of Wands",
+    "nameChinese": "权杖三",
+    "keywordsEnglish": [
+      "Opportunity",
+      "Prosperity",
+      "Growth",
+      "Expansion",
+      "Vision"
+    ],
+    "keywordsReversedEnglish": [
+      "Missed Opportunity",
+      "Lack of Growth",
+      "Obstacles",
+      "Disappointment",
+      "Lack of Vision"
+    ],
+    "keywordsChinese": [
+      "机会",
+      "繁荣",
+      "成长",
+      "扩张",
+      "远见"
+    ],
+    "keywordsReversedChinese": [
+      "错失机会",
+      "缺乏成长",
+      "障碍",
+      "失望",
+      "缺乏远见"
+    ],
+    "descriptionEnglish": "The Three of Wands represents opportunity, prosperity, and growth. It symbolizes expansion and vision.",
+    "descriptionReversedEnglish": "When reversed, the Three of Wands indicates missed opportunities, lack of growth, and obstacles. It suggests disappointment and lack of vision.",
+    "descriptionChinese": "权杖三代表机会、繁荣和成长。它象征着扩张和远见。",
+    "descriptionReversedChinese": "逆位时，权杖三表示错失机会、缺乏成长和障碍。它暗示失望和缺乏远见。",
+    "imagePath": "threeofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Four of Wands",
+    "nameChinese": "权杖四",
+    "keywordsEnglish": [
+      "Celebration",
+      "Stability",
+      "Harmony",
+      "Community",
+      "Home"
+    ],
+    "keywordsReversedEnglish": [
+      "Disruption",
+      "Instability",
+      "Conflict",
+      "Isolation",
+      "Lack of Support"
+    ],
+    "keywordsChinese": [
+      "庆祝",
+      "稳定",
+      "和谐",
+      "社区",
+      "家"
+    ],
+    "keywordsReversedChinese": [
+      "破坏",
+      "不稳定",
+      "冲突",
+      "孤立",
+      "缺乏支持"
+    ],
+    "descriptionEnglish": "The Four of Wands represents celebration, stability, and harmony. It symbolizes community and home.",
+    "descriptionReversedEnglish": "When reversed, the Four of Wands indicates disruption, instability, and conflict. It suggests isolation and lack of support.",
+    "descriptionChinese": "权杖四代表庆祝、稳定和和谐。它象征着社区和家。",
+    "descriptionReversedChinese": "逆位时，权杖四表示破坏、不稳定和冲突。它暗示孤立和缺乏支持。",
+    "imagePath": "fourofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Five of Wands",
+    "nameChinese": "权杖五",
+    "keywordsEnglish": [
+      "Conflict",
+      "Competition",
+      "Struggle",
+      "Tension",
+      "Challenges"
+    ],
+    "keywordsReversedEnglish": [
+      "Harmony",
+      "Avoidance",
+      "Lack of Conflict",
+      "Passivity",
+      "Lack of Challenge"
+    ],
+    "keywordsChinese": [
+      "冲突",
+      "竞争",
+      "斗争",
+      "紧张",
+      "挑战"
+    ],
+    "keywordsReversedChinese": [
+      "和谐",
+      "回避",
+      "缺乏冲突",
+      "被动",
+      "缺乏挑战"
+    ],
+    "descriptionEnglish": "The Five of Wands represents conflict, competition, and struggle. It symbolizes tension and challenges.",
+    "descriptionReversedEnglish": "When reversed, the Five of Wands indicates harmony, avoidance, and lack of conflict. It suggests passivity and lack of challenge.",
+    "descriptionChinese": "权杖五代表冲突、竞争和斗争。它象征着紧张和挑战。",
+    "descriptionReversedChinese": "逆位时，权杖五表示和谐、回避和缺乏冲突。它暗示被动和缺乏挑战。",
+    "imagePath": "fiveofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Six of Wands",
+    "nameChinese": "权杖六",
+    "keywordsEnglish": [
+      "Victory",
+      "Success",
+      "Recognition",
+      "Triumph",
+      "Leadership"
+    ],
+    "keywordsReversedEnglish": [
+      "Failure",
+      "Lack of Recognition",
+      "Humiliation",
+      "Disappointment",
+      "Loss of Leadership"
+    ],
+    "keywordsChinese": [
+      "胜利",
+      "成功",
+      "认可",
+      "凯旋",
+      "领导力"
+    ],
+    "keywordsReversedChinese": [
+      "失败",
+      "缺乏认可",
+      "羞辱",
+      "失望",
+      "失去领导力"
+    ],
+    "descriptionEnglish": "The Six of Wands represents victory, success, and recognition. It symbolizes triumph and leadership.",
+    "descriptionReversedEnglish": "When reversed, the Six of Wands indicates failure, lack of recognition, and humiliation. It suggests disappointment and loss of leadership.",
+    "descriptionChinese": "权杖六代表胜利、成功和认可。它象征着凯旋和领导力。",
+    "descriptionReversedChinese": "逆位时，权杖六表示失败、缺乏认可和羞辱。它暗示失望和失去领导力。",
+    "imagePath": "sixofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Seven of Wands",
+    "nameChinese": "权杖七",
+    "keywordsEnglish": [
+      "Courage",
+      "Defiance",
+      "Defense",
+      "Perseverance",
+      "Challenges"
+    ],
+    "keywordsReversedEnglish": [
+      "Fear",
+      "Surrender",
+      "Lack of Defense",
+      "Weakness",
+      "Overwhelm"
+    ],
+    "keywordsChinese": [
+      "勇气",
+      "反抗",
+      "防御",
+      "坚持",
+      "挑战"
+    ],
+    "keywordsReversedChinese": [
+      "恐惧",
+      "投降",
+      "缺乏防御",
+      "软弱",
+      "不知所措"
+    ],
+    "descriptionEnglish": "The Seven of Wands represents courage, defiance, and defense. It symbolizes perseverance and challenges.",
+    "descriptionReversedEnglish": "When reversed, the Seven of Wands indicates fear, surrender, and lack of defense. It suggests weakness and overwhelm.",
+    "descriptionChinese": "权杖七代表勇气、反抗和防御。它象征着坚持和挑战。",
+    "descriptionReversedChinese": "逆位时，权杖七表示恐惧、投降和缺乏防御。它暗示软弱和不知所措。",
+    "imagePath": "sevenofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Eight of Wands",
+    "nameChinese": "权杖八",
+    "keywordsEnglish": [
+      "Speed",
+      "Efficiency",
+      "Communication",
+      "Action",
+      "Progress"
+    ],
+    "keywordsReversedEnglish": [
+      "Delays",
+      "Inefficiency",
+      "Miscommunication",
+      "Inaction",
+      "Obstacles"
+    ],
+    "keywordsChinese": [
+      "速度",
+      "效率",
+      "沟通",
+      "行动",
+      "进展"
+    ],
+    "keywordsReversedChinese": [
+      "延误",
+      "低效",
+      "沟通不畅",
+      "不行动",
+      "障碍"
+    ],
+    "descriptionEnglish": "The Eight of Wands represents speed, efficiency, and communication. It symbolizes action and progress.",
+    "descriptionReversedEnglish": "When reversed, the Eight of Wands indicates delays, inefficiency, and miscommunication. It suggests inaction and obstacles.",
+    "descriptionChinese": "权杖八代表速度、效率和沟通。它象征着行动和进展。",
+    "descriptionReversedChinese": "逆位时，权杖八表示延误、低效和沟通不畅。它暗示不行动和障碍。",
+    "imagePath": "eightofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Nine of Wands",
+    "nameChinese": "权杖九",
+    "keywordsEnglish": [
+      "Strength",
+      "Resilience",
+      "Endurance",
+      "Support",
+      "Protection"
+    ],
+    "keywordsReversedEnglish": [
+      "Weakness",
+      "Lack of Support",
+      "Vulnerability",
+      "Exhaustion",
+      "Defeat"
+    ],
+    "keywordsChinese": [
+      "力量",
+      "韧性",
+      "忍耐",
+      "支持",
+      "保护"
+    ],
+    "keywordsReversedChinese": [
+      "软弱",
+      "缺乏支持",
+      "脆弱",
+      "疲惫",
+      "失败"
+    ],
+    "descriptionEnglish": "The Nine of Wands represents strength, resilience, and endurance. It symbolizes support and protection.",
+    "descriptionReversedEnglish": "When reversed, the Nine of Wands indicates weakness, lack of support, and vulnerability. It suggests exhaustion and defeat.",
+    "descriptionChinese": "权杖九代表力量、韧性和忍耐。它象征着支持和保护。",
+    "descriptionReversedChinese": "逆位时，权杖九表示软弱、缺乏支持和脆弱。它暗示疲惫和失败。",
+    "imagePath": "nineofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Ten of Wands",
+    "nameChinese": "权杖十",
+    "keywordsEnglish": [
+      "Overload",
+      "Responsibility",
+      "Burden",
+      "Achievement",
+      "Success"
+    ],
+    "keywordsReversedEnglish": [
+      "Failure",
+      "Lack of Achievement",
+      "Relief",
+      "Letting Go",
+      "Inability to Carry"
+    ],
+    "keywordsChinese": [
+      "超负荷",
+      "责任",
+      "负担",
+      "成就",
+      "成功"
+    ],
+    "keywordsReversedChinese": [
+      "失败",
+      "缺乏成就",
+      "解脱",
+      "放手",
+      "无法承担"
+    ],
+    "descriptionEnglish": "The Ten of Wands represents overload, responsibility, and burden. It symbolizes achievement and success.",
+    "descriptionReversedEnglish": "When reversed, the Ten of Wands indicates failure, lack of achievement, and relief. It suggests letting go and an inability to carry.",
+    "descriptionChinese": "权杖十代表超负荷、责任和负担。它象征着成就和成功。",
+    "descriptionReversedChinese": "逆位时，权杖十表示失败、缺乏成就和解脱。它暗示放手和无法承担。",
+    "imagePath": "tenofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Page of Wands",
+    "nameChinese": "权杖侍从",
+    "keywordsEnglish": [
+      "Enthusiasm",
+      "Creativity",
+      "Energy",
+      "Initiative",
+      "Passion"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Enthusiasm",
+      "Lack of Creativity",
+      "Lethargy",
+      "Lack of Initiative",
+      "Indifference"
+    ],
+    "keywordsChinese": [
+      "热情",
+      "创造力",
+      "能量",
+      "主动性",
+      "激情"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏热情",
+      "缺乏创造力",
+      "懒惰",
+      "缺乏主动性",
+      "冷漠"
+    ],
+    "descriptionEnglish": "The Page of Wands represents enthusiasm, creativity, and energy. It symbolizes initiative and passion.",
+    "descriptionReversedEnglish": "When reversed, the Page of Wands indicates lack of enthusiasm, lack of creativity, and lethargy. It suggests lack of initiative and indifference.",
+    "descriptionChinese": "权杖侍从代表热情、创造力和能量。它象征着主动性和激情。",
+    "descriptionReversedChinese": "逆位时，权杖侍从表示缺乏热情、缺乏创造力和懒惰。它暗示缺乏主动性和冷漠。",
+    "imagePath": "pageofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Knight of Wands",
+    "nameChinese": "权杖骑士",
+    "keywordsEnglish": [
+      "Passion",
+      "Courage",
+      "Adventure",
+      "Speed",
+      "Impulsiveness"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Passion",
+      "Fear",
+      "Caution",
+      "Slowness",
+      "Indecision"
+    ],
+    "keywordsChinese": [
+      "激情",
+      "勇气",
+      "冒险",
+      "速度",
+      "冲动"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏激情",
+      "恐惧",
+      "谨慎",
+      "缓慢",
+      "优柔寡断"
+    ],
+    "descriptionEnglish": "The Knight of Wands represents passion, courage, and adventure. He symbolizes speed and impulsiveness.",
+    "descriptionReversedEnglish": "When reversed, the Knight of Wands indicates lack of passion, fear, and caution. It suggests slowness and indecision.",
+    "descriptionChinese": "权杖骑士代表激情、勇气和冒险。他象征着速度和冲动。",
+    "descriptionReversedChinese": "逆位时，权杖骑士表示缺乏激情、恐惧和谨慎。它暗示缓慢和优柔寡断。",
+    "imagePath": "knightofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Queen of Wands",
+    "nameChinese": "权杖王后",
+    "keywordsEnglish": [
+      "Warmth",
+      "Generosity",
+      "Independence",
+      "Creativity",
+      "Passion"
+    ],
+    "keywordsReversedEnglish": [
+      "Coldness",
+      "Selfishness",
+      "Dependence",
+      "Lack of Creativity",
+      "Lack of Passion"
+    ],
+    "keywordsChinese": [
+      "热情",
+      "慷慨",
+      "独立",
+      "创造力",
+      "激情"
+    ],
+    "keywordsReversedChinese": [
+      "冷漠",
+      "自私",
+      "依赖",
+      "缺乏创造力",
+      "缺乏激情"
+    ],
+    "descriptionEnglish": "The Queen of Wands represents warmth, generosity, and independence. She symbolizes creativity and passion.",
+    "descriptionReversedEnglish": "When reversed, the Queen of Wands indicates coldness, selfishness, and dependence. It suggests lack of creativity and lack of passion.",
+    "descriptionChinese": "权杖王后代表热情、慷慨和独立。她象征着创造力和激情。",
+    "descriptionReversedChinese": "逆位时，权杖王后表示冷漠、自私和依赖。它暗示缺乏创造力和缺乏激情。",
+    "imagePath": "queenofwands.jpeg"
+  },
+  {
+    "nameEnglish": "King of Wands",
+    "nameChinese": "权杖国王",
+    "keywordsEnglish": [
+      "Authority",
+      "Leadership",
+      "Passion",
+      "Creativity",
+      "Dominance"
+    ],
+    "keywordsReversedEnglish": [
+      "Weakness",
+      "Lack of Leadership",
+      "Lack of Passion",
+      "Lack of Creativity",
+      "Submissiveness"
+    ],
+    "keywordsChinese": [
+      "权威",
+      "领导力",
+      "激情",
+      "创造力",
+      "统治"
+    ],
+    "keywordsReversedChinese": [
+      "软弱",
+      "缺乏领导力",
+      "缺乏激情",
+      "缺乏创造力",
+      "顺从"
+    ],
+    "descriptionEnglish": "The King of Wands represents authority, leadership, and passion. He symbolizes creativity and dominance.",
+    "descriptionReversedEnglish": "When reversed, the King of Wands indicates weakness, lack of leadership, and lack of passion. It suggests lack of creativity and submissiveness.",
+    "descriptionChinese": "权杖国王代表权威、领导力和激情。他象征着创造力和统治。",
+    "descriptionReversedChinese": "逆位时，权杖国王表示软弱、缺乏领导力和缺乏激情。它暗示缺乏创造力和顺从。",
+    "imagePath": "kingofwands.jpeg"
+  },
+  {
+    "nameEnglish": "Ace of Cups",
+    "nameChinese": "圣杯王牌",
+    "keywordsEnglish": [
+      "Emotional Potential",
+      "Love",
+      "Joy",
+      "Fertility",
+      "Abundance"
+    ],
+    "keywordsReversedEnglish": [
+      "Emotional Blockage",
+      "Lack of Love",
+      "Sadness",
+      "Infertility",
+      "Lack of Abundance"
+    ],
+    "keywordsChinese": [
+      "情感潜力",
+      "爱",
+      "快乐",
+      "生育",
+      "富饶"
+    ],
+    "keywordsReversedChinese": [
+      "情感阻碍",
+      "缺乏爱",
+      "悲伤",
+      "不育",
+      "缺乏富饶"
+    ],
+    "descriptionEnglish": "The Ace of Cups represents emotional potential, love, and joy. It symbolizes fertility and abundance.",
+    "descriptionReversedEnglish": "When reversed, the Ace of Cups indicates emotional blockage, lack of love, and sadness. It suggests infertility and lack of abundance.",
+    "descriptionChinese": "圣杯王牌代表情感潜力、爱和快乐。它象征着生育和富饶。",
+    "descriptionReversedChinese": "逆位时，圣杯王牌表示情感阻碍、缺乏爱和悲伤。它暗示不育和缺乏富饶。",
+    "imagePath": "aceofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Two of Cups",
+    "nameChinese": "圣杯二",
+    "keywordsEnglish": [
+      "Partnership",
+      "Harmony",
+      "Love",
+      "Attraction",
+      "Union"
+    ],
+    "keywordsReversedEnglish": [
+      "Conflict",
+      "Disunion",
+      "Lack of Love",
+      "Rejection",
+      "Separation"
+    ],
+    "keywordsChinese": [
+      "伙伴关系",
+      "和谐",
+      "爱",
+      "吸引",
+      "联合"
+    ],
+    "keywordsReversedChinese": [
+      "冲突",
+      "分裂",
+      "缺乏爱",
+      "拒绝",
+      "分离"
+    ],
+    "descriptionEnglish": "The Two of Cups represents partnership, harmony, and love. It symbolizes attraction and union.",
+    "descriptionReversedEnglish": "When reversed, the Two of Cups indicates conflict, disunion, and lack of love. It suggests rejection and separation.",
+    "descriptionChinese": "圣杯二代表伙伴关系、和谐和爱。它象征着吸引和联合。",
+    "descriptionReversedChinese": "逆位时，圣杯二表示冲突、分裂和缺乏爱。它暗示拒绝和分离。",
+    "imagePath": "twoofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Three of Cups",
+    "nameChinese": "圣杯三",
+    "keywordsEnglish": [
+      "Celebration",
+      "Friendship",
+      "Joy",
+      "Abundance",
+      "Community"
+    ],
+    "keywordsReversedEnglish": [
+      "Disappointment",
+      "Lack of Friendship",
+      "Sadness",
+      "Lack of Abundance",
+      "Isolation"
+    ],
+    "keywordsChinese": [
+      "庆祝",
+      "友谊",
+      "快乐",
+      "富饶",
+      "社区"
+    ],
+    "keywordsReversedChinese": [
+      "失望",
+      "缺乏友谊",
+      "悲伤",
+      "缺乏富饶",
+      "孤立"
+    ],
+    "descriptionEnglish": "The Three of Cups represents celebration, friendship, and joy. It symbolizes abundance and community.",
+    "descriptionReversedEnglish": "When reversed, the Three of Cups indicates disappointment, lack of friendship, and sadness. It suggests lack of abundance and isolation.",
+    "descriptionChinese": "圣杯三代表庆祝、友谊和快乐。它象征着富饶和社区。",
+    "descriptionReversedChinese": "逆位时，圣杯三表示失望、缺乏友谊和悲伤。它暗示缺乏富饶和孤立。",
+    "imagePath": "threeofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Four of Cups",
+    "nameChinese": "圣杯四",
+    "keywordsEnglish": [
+      "Indifference",
+      "Lack of Fulfillment",
+      "Discontent",
+      "Opportunity",
+      "Contemplation"
+    ],
+    "keywordsReversedEnglish": [
+      "Contentment",
+      "Fulfillment",
+      "Satisfaction",
+      "Lack of Opportunity",
+      "Lack of Contemplation"
+    ],
+    "keywordsChinese": [
+      "冷漠",
+      "缺乏满足",
+      "不满",
+      "机会",
+      "沉思"
+    ],
+    "keywordsReversedChinese": [
+      "满足",
+      "满足感",
+      "满意",
+      "缺乏机会",
+      "缺乏沉思"
+    ],
+    "descriptionEnglish": "The Four of Cups represents indifference, lack of fulfillment, and discontent. It symbolizes opportunity and contemplation.",
+    "descriptionReversedEnglish": "When reversed, the Four of Cups indicates contentment, fulfillment, and satisfaction. It suggests lack of opportunity and lack of contemplation.",
+    "descriptionChinese": "圣杯四代表冷漠、缺乏满足和不满。它象征着机会和沉思。",
+    "descriptionReversedChinese": "逆位时，圣杯四表示满足、满足感和满意。它暗示缺乏机会和缺乏沉思。",
+    "imagePath": "fourofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Five of Cups",
+    "nameChinese": "圣杯五",
+    "keywordsEnglish": [
+      "Loss",
+      "Disappointment",
+      "Grief",
+      "Regret",
+      "Sorrow"
+    ],
+    "keywordsReversedEnglish": [
+      "Acceptance",
+      "Recovery",
+      "Hope",
+      "Letting Go",
+      "Healing"
+    ],
+    "keywordsChinese": [
+      "损失",
+      "失望",
+      "悲伤",
+      "遗憾",
+      "哀伤"
+    ],
+    "keywordsReversedChinese": [
+      "接受",
+      "恢复",
+      "希望",
+      "放手",
+      "治愈"
+    ],
+    "descriptionEnglish": "The Five of Cups represents loss, disappointment, and grief. It symbolizes regret and sorrow.",
+    "descriptionReversedEnglish": "When reversed, the Five of Cups indicates acceptance, recovery, and hope. It suggests letting go and healing.",
+    "descriptionChinese": "圣杯五代表损失、失望和悲伤。它象征着遗憾和哀伤。",
+    "descriptionReversedChinese": "逆位时，圣杯五表示接受、恢复和希望。它暗示放手和治愈。",
+    "imagePath": "fiveofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Six of Cups",
+    "nameChinese": "圣杯六",
+    "keywordsEnglish": [
+      "Nostalgia",
+      "Reunion",
+      "Childhood",
+      "Pleasure",
+      "Happiness"
+    ],
+    "keywordsReversedEnglish": [
+      "Disappointment",
+      "Lack of Pleasure",
+      "Lack of Happiness",
+      "Unfulfilled Longing",
+      "Separation"
+    ],
+    "keywordsChinese": [
+      "怀旧",
+      "团聚",
+      "童年",
+      "快乐",
+      "幸福"
+    ],
+    "keywordsReversedChinese": [
+      "失望",
+      "缺乏快乐",
+      "缺乏幸福",
+      "未实现的渴望",
+      "分离"
+    ],
+    "descriptionEnglish": "The Six of Cups represents nostalgia, reunion, and childhood. It symbolizes pleasure and happiness.",
+    "descriptionReversedEnglish": "When reversed, the Six of Cups indicates disappointment, lack of pleasure, and lack of happiness. It suggests unfulfilled longing and separation.",
+    "descriptionChinese": "圣杯六代表怀旧、团聚和童年。它象征着快乐和幸福。",
+    "descriptionReversedChinese": "逆位时，圣杯六表示失望、缺乏快乐和缺乏幸福。它暗示未实现的渴望和分离。",
+    "imagePath": "sixofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Seven of Cups",
+    "nameChinese": "圣杯七",
+    "keywordsEnglish": [
+      "Fantasy",
+      "Illusion",
+      "Choices",
+      "Opportunities",
+      "Indecision"
+    ],
+    "keywordsReversedEnglish": [
+      "Clarity",
+      "Reality",
+      "Focus",
+      "Lack of Choices",
+      "Lack of Opportunities"
+    ],
+    "keywordsChinese": [
+      "幻想",
+      "幻象",
+      "选择",
+      "机会",
+      "优柔寡断"
+    ],
+    "keywordsReversedChinese": [
+      "清晰",
+      "现实",
+      "专注",
+      "缺乏选择",
+      "缺乏机会"
+    ],
+    "descriptionEnglish": "The Seven of Cups represents fantasy, illusion, and choices. It symbolizes opportunities and indecision.",
+    "descriptionReversedEnglish": "When reversed, the Seven of Cups indicates clarity, reality, and focus. It suggests lack of choices and lack of opportunities.",
+    "descriptionChinese": "圣杯七代表幻想、幻象和选择。它象征着机会和优柔寡断。",
+    "descriptionReversedChinese": "逆位时，圣杯七表示清晰、现实和专注。它暗示缺乏选择和缺乏机会。",
+    "imagePath": "sevenofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Eight of Cups",
+    "nameChinese": "圣杯八",
+    "keywordsEnglish": [
+      "Disillusionment",
+      "Abandonment",
+      "Withdrawal",
+      "Emotional Pain",
+      "Leaving Behind"
+    ],
+    "keywordsReversedEnglish": [
+      "Hope",
+      "Recovery",
+      "Acceptance",
+      "New Beginnings",
+      "Staying Put"
+    ],
+    "keywordsChinese": [
+      "幻灭",
+      "放弃",
+      "撤退",
+      "情感痛苦",
+      "留下"
+    ],
+    "keywordsReversedChinese": [
+      "希望",
+      "恢复",
+      "接受",
+      "新开始",
+      "留下"
+    ],
+    "descriptionEnglish": "The Eight of Cups represents disillusionment, abandonment, and withdrawal. It symbolizes emotional pain and leaving behind.",
+    "descriptionReversedEnglish": "When reversed, the Eight of Cups indicates hope, recovery, and acceptance. It suggests new beginnings and staying put.",
+    "descriptionChinese": "圣杯八代表幻灭、放弃和撤退。它象征着情感痛苦和留下。",
+    "descriptionReversedChinese": "逆位时，圣杯八表示希望、恢复和接受。它暗示新开始和留下。",
+    "imagePath": "eightofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Nine of Cups",
+    "nameChinese": "圣杯九",
+    "keywordsEnglish": [
+      "Wishes",
+      "Contentment",
+      "Satisfaction",
+      "Abundance",
+      "Fulfillment"
+    ],
+    "keywordsReversedEnglish": [
+      "Unfulfilled Wishes",
+      "Lack of Contentment",
+      "Discontent",
+      "Lack of Abundance",
+      "Lack of Fulfillment"
+    ],
+    "keywordsChinese": [
+      "愿望",
+      "满足",
+      "满意",
+      "富饶",
+      "满足感"
+    ],
+    "keywordsReversedChinese": [
+      "未实现的愿望",
+      "缺乏满足",
+      "不满",
+      "缺乏富饶",
+      "缺乏满足感"
+    ],
+    "descriptionEnglish": "The Nine of Cups represents wishes, contentment, and satisfaction. It symbolizes abundance and fulfillment.",
+    "descriptionReversedEnglish": "When reversed, the Nine of Cups indicates unfulfilled wishes, lack of contentment, and discontent. It suggests lack of abundance and lack of fulfillment.",
+    "descriptionChinese": "圣杯九代表愿望、满足和满意。它象征着富饶和满足感。",
+    "descriptionReversedChinese": "逆位时，圣杯九表示未实现的愿望、缺乏满足和不满。它暗示缺乏富饶和缺乏满足感。",
+    "imagePath": "nineofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Ten of Cups",
+    "nameChinese": "圣杯十",
+    "keywordsEnglish": [
+      "Perfection",
+      "Harmony",
+      "Family",
+      "Happiness",
+      "Completion"
+    ],
+    "keywordsReversedEnglish": [
+      "Imperfection",
+      "Disunity",
+      "Family Conflict",
+      "Unhappiness",
+      "Incompleteness"
+    ],
+    "keywordsChinese": [
+      "完美",
+      "和谐",
+      "家庭",
+      "幸福",
+      "完成"
+    ],
+    "keywordsReversedChinese": [
+      "不完美",
+      "不统一",
+      "家庭冲突",
+      "不幸福",
+      "未完成"
+    ],
+    "descriptionEnglish": "The Ten of Cups represents perfection, harmony, and family. It symbolizes happiness and completion.",
+    "descriptionReversedEnglish": "When reversed, the Ten of Cups indicates imperfection, disunity, and family conflict. It suggests unhappiness and incompleteness.",
+    "descriptionChinese": "圣杯十代表完美、和谐和家庭。它象征着幸福和完成。",
+    "descriptionReversedChinese": "逆位时，圣杯十表示不完美、不统一和家庭冲突。它暗示不幸福和未完成。",
+    "imagePath": "tenofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Page of Cups",
+    "nameChinese": "圣杯侍从",
+    "keywordsEnglish": [
+      "Imagination",
+      "Dreams",
+      "Creativity",
+      "Sensitivity",
+      "Emotional Depth"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Imagination",
+      "Lack of Dreams",
+      "Lack of Creativity",
+      "Insensitivity",
+      "Superficiality"
+    ],
+    "keywordsChinese": [
+      "想象力",
+      "梦想",
+      "创造力",
+      "敏感",
+      "情感深度"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏想象力",
+      "缺乏梦想",
+      "缺乏创造力",
+      "不敏感",
+      "肤浅"
+    ],
+    "descriptionEnglish": "The Page of Cups represents imagination, dreams, and creativity. It symbolizes sensitivity and emotional depth.",
+    "descriptionReversedEnglish": "When reversed, the Page of Cups indicates lack of imagination, lack of dreams, and lack of creativity. It suggests insensitivity and superficiality.",
+    "descriptionChinese": "圣杯侍从代表想象力、梦想和创造力。它象征着敏感和情感深度。",
+    "descriptionReversedChinese": "逆位时，圣杯侍从表示缺乏想象力、缺乏梦想和缺乏创造力。它暗示不敏感和肤浅。",
+    "imagePath": "pageofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Knight of Cups",
+    "nameChinese": "圣杯骑士",
+    "keywordsEnglish": [
+      "Romance",
+      "Chivalry",
+      "Emotional Expression",
+      "Passion",
+      "Idealism"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Romance",
+      "Lack of Chivalry",
+      "Emotional Suppression",
+      "Lack of Passion",
+      "Pragmatism"
+    ],
+    "keywordsChinese": [
+      "浪漫",
+      "骑士精神",
+      "情感表达",
+      "激情",
+      "理想主义"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏浪漫",
+      "缺乏骑士精神",
+      "情感压抑",
+      "缺乏激情",
+      "现实主义"
+    ],
+    "descriptionEnglish": "The Knight of Cups represents romance, chivalry, and emotional expression. He symbolizes passion and idealism.",
+    "descriptionReversedEnglish": "When reversed, the Knight of Cups indicates lack of romance, lack of chivalry, and emotional suppression. It suggests lack of passion and pragmatism.",
+    "descriptionChinese": "圣杯骑士代表浪漫、骑士精神和情感表达。他象征着激情和理想主义。",
+    "descriptionReversedChinese": "逆位时，圣杯骑士表示缺乏浪漫、缺乏骑士精神和情感压抑。它暗示缺乏激情和现实主义。",
+    "imagePath": "knightofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Queen of Cups",
+    "nameChinese": "圣杯王后",
+    "keywordsEnglish": [
+      "Compassion",
+      "Nurturing",
+      "Intuition",
+      "Empathy",
+      "Emotional Stability"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Compassion",
+      "Lack of Nurturing",
+      "Lack of Intuition",
+      "Lack of Empathy",
+      "Emotional Instability"
+    ],
+    "keywordsChinese": [
+      "同情",
+      "养育",
+      "直觉",
+      "同理心",
+      "情感稳定"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏同情",
+      "缺乏养育",
+      "缺乏直觉",
+      "缺乏同理心",
+      "情感不稳定"
+    ],
+    "descriptionEnglish": "The Queen of Cups represents compassion, nurturing, and intuition. She symbolizes empathy and emotional stability.",
+    "descriptionReversedEnglish": "When reversed, the Queen of Cups indicates lack of compassion, lack of nurturing, and lack of intuition. It suggests lack of empathy and emotional instability.",
+    "descriptionChinese": "圣杯王后代表同情、养育和直觉。她象征着同理心和情感稳定。",
+    "descriptionReversedChinese": "逆位时，圣杯王后表示缺乏同情、缺乏养育和缺乏直觉。它暗示缺乏同理心和情感不稳定。",
+    "imagePath": "queenofcups.jpeg"
+  },
+  {
+    "nameEnglish": "King of Cups",
+    "nameChinese": "圣杯国王",
+    "keywordsEnglish": [
+      "Control",
+      "Mastery",
+      "Emotional Balance",
+      "Wisdom",
+      "Authority"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Control",
+      "Lack of Mastery",
+      "Emotional Imbalance",
+      "Lack of Wisdom",
+      "Weakness"
+    ],
+    "keywordsChinese": [
+      "控制",
+      "精通",
+      "情感平衡",
+      "智慧",
+      "权威"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏控制",
+      "缺乏精通",
+      "情感不平衡",
+      "缺乏智慧",
+      "软弱"
+    ],
+    "descriptionEnglish": "The King of Cups represents control, mastery, and emotional balance. He symbolizes wisdom and authority.",
+    "descriptionReversedEnglish": "When reversed, the King of Cups indicates lack of control, lack of mastery, and emotional imbalance. It suggests lack of wisdom and weakness.",
+    "descriptionChinese": "圣杯国王代表控制、精通和情感平衡。他象征着智慧和权威。",
+    "descriptionReversedChinese": "逆位时，圣杯国王表示缺乏控制、缺乏精通和情感不平衡。它暗示缺乏智慧和软弱。",
+    "imagePath": "kingofcups.jpeg"
+  },
+  {
+    "nameEnglish": "Ace of Swords",
+    "nameChinese": "宝剑王牌",
+    "keywordsEnglish": [
+      "New Beginnings",
+      "Clarity",
+      "Truth",
+      "Action",
+      "Focus"
+    ],
+    "keywordsReversedEnglish": [
+      "Blockage",
+      "Confusion",
+      "Deception",
+      "Inaction",
+      "Lack of Focus"
+    ],
+    "keywordsChinese": [
+      "新开始",
+      "清晰",
+      "真相",
+      "行动",
+      "专注"
+    ],
+    "keywordsReversedChinese": [
+      "阻碍",
+      "困惑",
+      "欺骗",
+      "不行动",
+      "缺乏专注"
+    ],
+    "descriptionEnglish": "The Ace of Swords represents new beginnings, clarity, and truth. It symbolizes action and focus.",
+    "descriptionReversedEnglish": "When reversed, the Ace of Swords indicates blockage, confusion, and deception. It suggests inaction and lack of focus.",
+    "descriptionChinese": "宝剑王牌代表新开始、清晰和真相。它象征着行动和专注。",
+    "descriptionReversedChinese": "逆位时，宝剑王牌表示阻碍、困惑和欺骗。它暗示不行动和缺乏专注。",
+    "imagePath": "aceofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Two of Swords",
+    "nameChinese": "宝剑二",
+    "keywordsEnglish": [
+      "Balance",
+      "Harmony",
+      "Peace",
+      "Mediation",
+      "Diplomacy"
+    ],
+    "keywordsReversedEnglish": [
+      "Conflict",
+      "Disunity",
+      "War",
+      "Lack of Harmony",
+      "Lack of Peace"
+    ],
+    "keywordsChinese": [
+      "平衡",
+      "和谐",
+      "和平",
+      "调解",
+      "外交"
+    ],
+    "keywordsReversedChinese": [
+      "冲突",
+      "不统一",
+      "战争",
+      "缺乏和谐",
+      "缺乏和平"
+    ],
+    "descriptionEnglish": "The Two of Swords represents balance, harmony, and peace. It symbolizes mediation and diplomacy.",
+    "descriptionReversedEnglish": "When reversed, the Two of Swords indicates conflict, disunity, and war. It suggests lack of harmony and lack of peace.",
+    "descriptionChinese": "宝剑二代表平衡、和谐和和平。它象征着调解和外交。",
+    "descriptionReversedChinese": "逆位时，宝剑二表示冲突、不统一和战争。它暗示缺乏和谐和缺乏和平。",
+    "imagePath": "twoofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Three of Swords",
+    "nameChinese": "宝剑三",
+    "keywordsEnglish": [
+      "Sorrow",
+      "Heartbreak",
+      "Loss",
+      "Grief",
+      "Pain"
+    ],
+    "keywordsReversedEnglish": [
+      "Healing",
+      "Recovery",
+      "Acceptance",
+      "Hope",
+      "Letting Go"
+    ],
+    "keywordsChinese": [
+      "悲伤",
+      "心碎",
+      "损失",
+      "悲痛",
+      "痛苦"
+    ],
+    "keywordsReversedChinese": [
+      "治愈",
+      "恢复",
+      "接受",
+      "希望",
+      "放手"
+    ],
+    "descriptionEnglish": "The Three of Swords represents sorrow, heartbreak, and loss. It symbolizes grief and pain.",
+    "descriptionReversedEnglish": "When reversed, the Three of Swords indicates healing, recovery, and acceptance. It suggests hope and letting go.",
+    "descriptionChinese": "宝剑三代表悲伤、心碎和损失。它象征着悲痛和痛苦。",
+    "descriptionReversedChinese": "逆位时，宝剑三表示治愈、恢复和接受。它暗示希望和放手。",
+    "imagePath": "threeofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Four of Swords",
+    "nameChinese": "宝剑四",
+    "keywordsEnglish": [
+      "Rest",
+      "Tranquility",
+      "Peace",
+      "Reflection",
+      "Solitude"
+    ],
+    "keywordsReversedEnglish": [
+      "Disruption",
+      "Restlessness",
+      "Conflict",
+      "Lack of Peace",
+      "Lack of Rest"
+    ],
+    "keywordsChinese": [
+      "休息",
+      "宁静",
+      "和平",
+      "反思",
+      "孤独"
+    ],
+    "keywordsReversedChinese": [
+      "扰乱",
+      "不安",
+      "冲突",
+      "缺乏和平",
+      "缺乏休息"
+    ],
+    "descriptionEnglish": "The Four of Swords represents rest, tranquility, and peace. It symbolizes reflection and solitude.",
+    "descriptionReversedEnglish": "When reversed, the Four of Swords indicates disruption, restlessness, and conflict. It suggests lack of peace and lack of rest.",
+    "descriptionChinese": "宝剑四代表休息、宁静和和平。它象征着反思和孤独。",
+    "descriptionReversedChinese": "逆位时，宝剑四表示扰乱、不安和冲突。它暗示缺乏和平和缺乏休息。",
+    "imagePath": "fourofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Five of Swords",
+    "nameChinese": "宝剑五",
+    "keywordsEnglish": [
+      "Victory",
+      "Conflict",
+      "Defeat",
+      "Loss",
+      "Humiliation"
+    ],
+    "keywordsReversedEnglish": [
+      "Failure",
+      "Harmony",
+      "Recovery",
+      "Lack of Conflict",
+      "Lack of Defeat"
+    ],
+    "keywordsChinese": [
+      "胜利",
+      "冲突",
+      "失败",
+      "损失",
+      "羞辱"
+    ],
+    "keywordsReversedChinese": [
+      "失败",
+      "和谐",
+      "恢复",
+      "缺乏冲突",
+      "缺乏失败"
+    ],
+    "descriptionEnglish": "The Five of Swords represents victory, conflict, and defeat. It symbolizes loss and humiliation.",
+    "descriptionReversedEnglish": "When reversed, the Five of Swords indicates failure, harmony, and recovery. It suggests lack of conflict and lack of defeat.",
+    "descriptionChinese": "宝剑五代表胜利、冲突和失败。它象征着损失和羞辱。",
+    "descriptionReversedChinese": "逆位时，宝剑五表示失败、和谐和恢复。它暗示缺乏冲突和缺乏失败。",
+    "imagePath": "fiveofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Six of Swords",
+    "nameChinese": "宝剑六",
+    "keywordsEnglish": [
+      "Transition",
+      "Escape",
+      "Healing",
+      "Journey",
+      "Release"
+    ],
+    "keywordsReversedEnglish": [
+      "Stagnation",
+      "Trapped",
+      "Lack of Healing",
+      "Lack of Escape",
+      "Lack of Release"
+    ],
+    "keywordsChinese": [
+      "过渡",
+      "逃离",
+      "治愈",
+      "旅程",
+      "释放"
+    ],
+    "keywordsReversedChinese": [
+      "停滞",
+      "被困",
+      "缺乏治愈",
+      "缺乏逃离",
+      "缺乏释放"
+    ],
+    "descriptionEnglish": "The Six of Swords represents transition, escape, and healing. It symbolizes journey and release.",
+    "descriptionReversedEnglish": "When reversed, the Six of Swords indicates stagnation, being trapped, and lack of healing. It suggests lack of escape and lack of release.",
+    "descriptionChinese": "宝剑六代表过渡、逃离和治愈。它象征着旅程和释放。",
+    "descriptionReversedChinese": "逆位时，宝剑六表示停滞、被困和缺乏治愈。它暗示缺乏逃离和缺乏释放。",
+    "imagePath": "sixofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Seven of Swords",
+    "nameChinese": "宝剑七",
+    "keywordsEnglish": [
+      "Deception",
+      "Betrayal",
+      "Cunning",
+      "Stealth",
+      "Unfairness"
+    ],
+    "keywordsReversedEnglish": [
+      "Honesty",
+      "Loyalty",
+      "Transparency",
+      "Clarity",
+      "Fairness"
+    ],
+    "keywordsChinese": [
+      "欺骗",
+      "背叛",
+      "狡猾",
+      "隐秘",
+      "不公平"
+    ],
+    "keywordsReversedChinese": [
+      "诚实",
+      "忠诚",
+      "透明",
+      "清晰",
+      "公平"
+    ],
+    "descriptionEnglish": "The Seven of Swords represents deception, betrayal, and cunning. It symbolizes stealth and unfairness.",
+    "descriptionReversedEnglish": "When reversed, the Seven of Swords indicates honesty, loyalty, and transparency. It suggests clarity and fairness.",
+    "descriptionChinese": "宝剑七代表欺骗、背叛和狡猾。它象征着隐秘和不公平。",
+    "descriptionReversedChinese": "逆位时，宝剑七表示诚实、忠诚和透明。它暗示清晰和公平。",
+    "imagePath": "sevenofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Eight of Swords",
+    "nameChinese": "宝剑八",
+    "keywordsEnglish": [
+      "束缚",
+      "限制",
+      "困境",
+      "无助",
+      "压力"
+    ],
+    "keywordsReversedEnglish": [
+      "解放",
+      "自由",
+      "突破",
+      "解脱",
+      "释放"
+    ],
+    "keywordsChinese": [
+      "束缚",
+      "限制",
+      "困境",
+      "无助",
+      "压力"
+    ],
+    "keywordsReversedChinese": [
+      "解放",
+      "自由",
+      "突破",
+      "解脱",
+      "释放"
+    ],
+    "descriptionEnglish": "The Eight of Swords represents being bound, restricted, and trapped. It symbolizes helplessness and pressure.",
+    "descriptionReversedEnglish": "When reversed, the Eight of Swords indicates liberation, freedom, and breakthrough. It suggests relief and release.",
+    "descriptionChinese": "宝剑八代表被束缚、限制和陷入困境。它象征着无助和压力。",
+    "descriptionReversedChinese": "逆位时，宝剑八表示解放、自由和突破。它暗示解脱和释放。",
+    "imagePath": "eightofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Nine of Swords",
+    "nameChinese": "宝剑九",
+    "keywordsEnglish": [
+      "Sorrow",
+      "Anxiety",
+      "Nightmares",
+      "Mental Anguish",
+      "Despair"
+    ],
+    "keywordsReversedEnglish": [
+      "Hope",
+      "Recovery",
+      "Clarity",
+      "Peace",
+      "Acceptance"
+    ],
+    "keywordsChinese": [
+      "悲伤",
+      "焦虑",
+      "噩梦",
+      "精神痛苦",
+      "绝望"
+    ],
+    "keywordsReversedChinese": [
+      "希望",
+      "恢复",
+      "清晰",
+      "和平",
+      "接受"
+    ],
+    "descriptionEnglish": "The Nine of Swords represents sorrow, anxiety, and nightmares. It symbolizes mental anguish and despair.",
+    "descriptionReversedEnglish": "When reversed, the Nine of Swords indicates hope, recovery, and clarity. It suggests peace and acceptance.",
+    "descriptionChinese": "宝剑九代表悲伤、焦虑和噩梦。它象征着精神痛苦和绝望。",
+    "descriptionReversedChinese": "逆位时，宝剑九表示希望、恢复和清晰。它暗示和平和接受。",
+    "imagePath": "nineofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Ten of Swords",
+    "nameChinese": "宝剑十",
+    "keywordsEnglish": [
+      "Defeat",
+      "Betrayal",
+      "Overwhelm",
+      "Suffering",
+      "Endings"
+    ],
+    "keywordsReversedEnglish": [
+      "Recovery",
+      "Hope",
+      "New Beginnings",
+      "Survival",
+      "Learning"
+    ],
+    "keywordsChinese": [
+      "失败",
+      "背叛",
+      "不知所措",
+      "痛苦",
+      "结束"
+    ],
+    "keywordsReversedChinese": [
+      "恢复",
+      "希望",
+      "新开始",
+      "生存",
+      "学习"
+    ],
+    "descriptionEnglish": "The Ten of Swords represents defeat, betrayal, and overwhelm. It symbolizes suffering and endings.",
+    "descriptionReversedEnglish": "When reversed, the Ten of Swords indicates recovery, hope, and new beginnings. It suggests survival and learning.",
+    "descriptionChinese": "宝剑十代表失败、背叛和不知所措。它象征着痛苦和结束。",
+    "descriptionReversedChinese": "逆位时，宝剑十表示恢复、希望和新开始。它暗示生存和学习。",
+    "imagePath": "tenofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Page of Swords",
+    "nameChinese": "宝剑侍从",
+    "keywordsEnglish": [
+      "Agility",
+      "Alertness",
+      "Quick Thinking",
+      "Action",
+      "Courage"
+    ],
+    "keywordsReversedEnglish": [
+      "Sluggishness",
+      "Carelessness",
+      "Lack of Focus",
+      "Inaction",
+      "Fear"
+    ],
+    "keywordsChinese": [
+      "敏捷",
+      "警觉",
+      "思维敏捷",
+      "行动",
+      "勇气"
+    ],
+    "keywordsReversedChinese": [
+      "迟钝",
+      "粗心",
+      "缺乏专注",
+      "不行动",
+      "恐惧"
+    ],
+    "descriptionEnglish": "The Page of Swords represents agility, alertness, and quick thinking. It symbolizes action and courage.",
+    "descriptionReversedEnglish": "When reversed, the Page of Swords indicates sluggishness, carelessness, and lack of focus. It suggests inaction and fear.",
+    "descriptionChinese": "宝剑侍从代表敏捷、警觉和思维敏捷。它象征着行动和勇气。",
+    "descriptionReversedChinese": "逆位时，宝剑侍从表示迟钝、粗心和缺乏专注。它暗示不行动和恐惧。",
+    "imagePath": "pageofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Knight of Swords",
+    "nameChinese": "宝剑骑士",
+    "keywordsEnglish": [
+      "Speed",
+      "Action",
+      "Courage",
+      "Aggression",
+      "Impulsiveness"
+    ],
+    "keywordsReversedEnglish": [
+      "Slowness",
+      "Inaction",
+      "Fear",
+      "Cautiousness",
+      "Indecision"
+    ],
+    "keywordsChinese": [
+      "速度",
+      "行动",
+      "勇气",
+      "攻击性",
+      "冲动"
+    ],
+    "keywordsReversedChinese": [
+      "缓慢",
+      "不行动",
+      "恐惧",
+      "谨慎",
+      "优柔寡断"
+    ],
+    "descriptionEnglish": "The Knight of Swords represents speed, action, and courage. He symbolizes aggression and impulsiveness.",
+    "descriptionReversedEnglish": "When reversed, the Knight of Swords indicates slowness, inaction, and fear. It suggests cautiousness and indecision.",
+    "descriptionChinese": "宝剑骑士代表速度、行动和勇气。他象征着攻击性和冲动。",
+    "descriptionReversedChinese": "逆位时，宝剑骑士表示缓慢、不行动和恐惧。它暗示谨慎和优柔寡断。",
+    "imagePath": "knightofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Queen of Swords",
+    "nameChinese": "宝剑王后",
+    "keywordsEnglish": [
+      "Strength",
+      "Independence",
+      "Clarity",
+      "Wisdom",
+      "Emotional Detachment"
+    ],
+    "keywordsReversedEnglish": [
+      "Weakness",
+      "Dependence",
+      "Confusion",
+      "Lack of Wisdom",
+      "Emotional Attachment"
+    ],
+    "keywordsChinese": [
+      "力量",
+      "独立",
+      "清晰",
+      "智慧",
+      "情感冷漠"
+    ],
+    "keywordsReversedChinese": [
+      "软弱",
+      "依赖",
+      "困惑",
+      "缺乏智慧",
+      "情感依恋"
+    ],
+    "descriptionEnglish": "The Queen of Swords represents strength, independence, and clarity. She symbolizes wisdom and emotional detachment.",
+    "descriptionReversedEnglish": "When reversed, the Queen of Swords indicates weakness, dependence, and confusion. It suggests lack of wisdom and emotional attachment.",
+    "descriptionChinese": "宝剑王后代表力量、独立和清晰。她象征着智慧和情感冷漠。",
+    "descriptionReversedChinese": "逆位时，宝剑王后表示软弱、依赖和困惑。它暗示缺乏智慧和情感依恋。",
+    "imagePath": "queenofswords.jpeg"
+  },
+  {
+    "nameEnglish": "King of Swords",
+    "nameChinese": "宝剑国王",
+    "keywordsEnglish": [
+      "Authority",
+      "Control",
+      "Justice",
+      "Wisdom",
+      "Dominance"
+    ],
+    "keywordsReversedEnglish": [
+      "Weakness",
+      "Lack of Control",
+      "Injustice",
+      "Lack of Wisdom",
+      "Submissiveness"
+    ],
+    "keywordsChinese": [
+      "权威",
+      "控制",
+      "正义",
+      "智慧",
+      "统治"
+    ],
+    "keywordsReversedChinese": [
+      "软弱",
+      "缺乏控制",
+      "不公正",
+      "缺乏智慧",
+      "顺从"
+    ],
+    "descriptionEnglish": "The King of Swords represents authority, control, and justice. He symbolizes wisdom and dominance.",
+    "descriptionReversedEnglish": "When reversed, the King of Swords indicates weakness, lack of control, and injustice. It suggests lack of wisdom and submissiveness.",
+    "descriptionChinese": "宝剑国王代表权威、控制和正义。他象征着智慧和统治。",
+    "descriptionReversedChinese": "逆位时，宝剑国王表示软弱、缺乏控制和不公正。它暗示缺乏智慧和顺从。",
+    "imagePath": "kingofswords.jpeg"
+  },
+  {
+    "nameEnglish": "Ace of Pentacles",
+    "nameChinese": "星币王牌",
+    "keywordsEnglish": [
+      "Opportunity",
+      "Material Gain",
+      "Abundance",
+      "Potential",
+      "Wealth"
+    ],
+    "keywordsReversedEnglish": [
+      "Missed Opportunity",
+      "Lack of Gain",
+      "Poverty",
+      "Lack of Potential",
+      "Lack of Wealth"
+    ],
+    "keywordsChinese": [
+      "机会",
+      "物质收获",
+      "富饶",
+      "潜力",
+      "财富"
+    ],
+    "keywordsReversedChinese": [
+      "错失机会",
+      "缺乏收获",
+      "贫困",
+      "缺乏潜力",
+      "缺乏财富"
+    ],
+    "descriptionEnglish": "The Ace of Pentacles represents opportunity, material gain, and abundance. It symbolizes potential and wealth.",
+    "descriptionReversedEnglish": "When reversed, the Ace of Pentacles indicates missed opportunities, lack of gain, and poverty. It suggests lack of potential and lack of wealth.",
+    "descriptionChinese": "星币王牌代表机会、物质收获和富饶。它象征着潜力和财富。",
+    "descriptionReversedChinese": "逆位时，星币王牌表示错失机会、缺乏收获和贫困。它暗示缺乏潜力和缺乏财富。",
+    "imagePath": "aceofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Two of Pentacles",
+    "nameChinese": "星币二",
+    "keywordsEnglish": [
+      "Balance",
+      "Adaptability",
+      "Resourcefulness",
+      "Juggling",
+      "Stability"
+    ],
+    "keywordsReversedEnglish": [
+      "Imbalance",
+      "Inflexibility",
+      "Lack of Resources",
+      "Lack of Stability",
+      "Chaos"
+    ],
+    "keywordsChinese": [
+      "平衡",
+      "适应性",
+      "机智",
+      "多任务处理",
+      "稳定"
+    ],
+    "keywordsReversedChinese": [
+      "失衡",
+      "僵化",
+      "缺乏资源",
+      "缺乏稳定",
+      "混乱"
+    ],
+    "descriptionEnglish": "The Two of Pentacles represents balance, adaptability, and resourcefulness. It symbolizes juggling and stability.",
+    "descriptionReversedEnglish": "When reversed, the Two of Pentacles indicates imbalance, inflexibility, and lack of resources. It suggests lack of stability and chaos.",
+    "descriptionChinese": "星币二代表平衡、适应性和机智。它象征着多任务处理和稳定。",
+    "descriptionReversedChinese": "逆位时，星币二表示失衡、僵化和缺乏资源。它暗示缺乏稳定和混乱。",
+    "imagePath": "twoofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Three of Pentacles",
+    "nameChinese": "星币三",
+    "keywordsEnglish": [
+      "Collaboration",
+      "Skill",
+      "Craftsmanship",
+      "Planning",
+      "Teamwork"
+    ],
+    "keywordsReversedEnglish": [
+      "Isolation",
+      "Lack of Skill",
+      "Lack of Craftsmanship",
+      "Lack of Planning",
+      "Lack of Teamwork"
+    ],
+    "keywordsChinese": [
+      "合作",
+      "技能",
+      "工艺",
+      "计划",
+      "团队合作"
+    ],
+    "keywordsReversedChinese": [
+      "孤立",
+      "缺乏技能",
+      "缺乏工艺",
+      "缺乏计划",
+      "缺乏团队合作"
+    ],
+    "descriptionEnglish": "The Three of Pentacles represents collaboration, skill, and craftsmanship. It symbolizes planning and teamwork.",
+    "descriptionReversedEnglish": "When reversed, the Three of Pentacles indicates isolation, lack of skill, and lack of craftsmanship. It suggests lack of planning and lack of teamwork.",
+    "descriptionChinese": "星币三代表合作、技能和工艺。它象征着计划和团队合作。",
+    "descriptionReversedChinese": "逆位时，星币三表示孤立、缺乏技能和缺乏工艺。它暗示缺乏计划和缺乏团队合作。",
+    "imagePath": "threeofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Four of Pentacles",
+    "nameChinese": "星币四",
+    "keywordsEnglish": [
+      "Security",
+      "Material Stability",
+      "Conservation",
+      "Wealth",
+      "Control"
+    ],
+    "keywordsReversedEnglish": [
+      "Insecurity",
+      "Lack of Stability",
+      "Wastefulness",
+      "Lack of Wealth",
+      "Lack of Control"
+    ],
+    "keywordsChinese": [
+      "安全",
+      "物质稳定",
+      "保守",
+      "财富",
+      "控制"
+    ],
+    "keywordsReversedChinese": [
+      "不安全",
+      "缺乏稳定",
+      "浪费",
+      "缺乏财富",
+      "缺乏控制"
+    ],
+    "descriptionEnglish": "The Four of Pentacles represents security, material stability, and conservation. It symbolizes wealth and control.",
+    "descriptionReversedEnglish": "When reversed, the Four of Pentacles indicates insecurity, lack of stability, and wastefulness. It suggests lack of wealth and lack of control.",
+    "descriptionChinese": "星币四代表安全、物质稳定和保守。它象征着财富和控制。",
+    "descriptionReversedChinese": "逆位时，星币四表示不安全、缺乏稳定和浪费。它暗示缺乏财富和缺乏控制。",
+    "imagePath": "fourofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Five of Pentacles",
+    "nameChinese": "星币五",
+    "keywordsEnglish": [
+      "Loss",
+      "Poverty",
+      "Hardship",
+      "Need",
+      "Suffering"
+    ],
+    "keywordsReversedEnglish": [
+      "Recovery",
+      "Wealth",
+      "Support",
+      "Lack of Hardship",
+      "Lack of Need"
+    ],
+    "keywordsChinese": [
+      "损失",
+      "贫困",
+      "困难",
+      "需求",
+      "痛苦"
+    ],
+    "keywordsReversedChinese": [
+      "恢复",
+      "财富",
+      "支持",
+      "缺乏困难",
+      "缺乏需求"
+    ],
+    "descriptionEnglish": "The Five of Pentacles represents loss, poverty, and hardship. It symbolizes need and suffering.",
+    "descriptionReversedEnglish": "When reversed, the Five of Pentacles indicates recovery, wealth, and support. It suggests lack of hardship and lack of need.",
+    "descriptionChinese": "星币五代表损失、贫困和困难。它象征着需求和痛苦。",
+    "descriptionReversedChinese": "逆位时，星币五表示恢复、财富和支持。它暗示缺乏困难和缺乏需求。",
+    "imagePath": "fiveofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Six of Pentacles",
+    "nameChinese": "星币六",
+    "keywordsEnglish": [
+      "Generosity",
+      "Charity",
+      "Wealth",
+      "Abundance",
+      "Sharing"
+    ],
+    "keywordsReversedEnglish": [
+      "Selfishness",
+      "Lack of Generosity",
+      "Lack of Wealth",
+      "Lack of Abundance",
+      "Lack of Sharing"
+    ],
+    "keywordsChinese": [
+      "慷慨",
+      "慈善",
+      "财富",
+      "富饶",
+      "分享"
+    ],
+    "keywordsReversedChinese": [
+      "自私",
+      "缺乏慷慨",
+      "缺乏财富",
+      "缺乏富饶",
+      "缺乏分享"
+    ],
+    "descriptionEnglish": "The Six of Pentacles represents generosity, charity, and wealth. It symbolizes abundance and sharing.",
+    "descriptionReversedEnglish": "When reversed, the Six of Pentacles indicates selfishness, lack of generosity, and lack of wealth. It suggests lack of abundance and lack of sharing.",
+    "descriptionChinese": "星币六代表慷慨、慈善和财富。它象征着富饶和分享。",
+    "descriptionReversedChinese": "逆位时，星币六表示自私、缺乏慷慨和缺乏财富。它暗示缺乏富饶和缺乏分享。",
+    "imagePath": "sixofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Seven of Pentacles",
+    "nameChinese": "星币七",
+    "keywordsEnglish": [
+      "Hard Work",
+      "Investment",
+      "Patience",
+      "Growth",
+      "Potential"
+    ],
+    "keywordsReversedEnglish": [
+      "Laziness",
+      "Lack of Investment",
+      "Impatience",
+      "Lack of Growth",
+      "Lack of Potential"
+    ],
+    "keywordsChinese": [
+      "努力工作",
+      "投资",
+      "耐心",
+      "成长",
+      "潜力"
+    ],
+    "keywordsReversedChinese": [
+      "懒惰",
+      "缺乏投资",
+      "缺乏耐心",
+      "缺乏成长",
+      "缺乏潜力"
+    ],
+    "descriptionEnglish": "The Seven of Pentacles represents hard work, investment, and patience. It symbolizes growth and potential.",
+    "descriptionReversedEnglish": "When reversed, the Seven of Pentacles indicates laziness, lack of investment, and impatience. It suggests lack of growth and lack of potential.",
+    "descriptionChinese": "星币七代表努力工作、投资和耐心。它象征着成长和潜力。",
+    "descriptionReversedChinese": "逆位时，星币七表示懒惰、缺乏投资和缺乏耐心。它暗示缺乏成长和缺乏潜力。",
+    "imagePath": "sevenofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Eight of Pentacles",
+    "nameChinese": "星币八",
+    "keywordsEnglish": [
+      "Skill",
+      "Craftsmanship",
+      "Perfection",
+      "Diligence",
+      "Attention to Detail"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Skill",
+      "Lack of Craftsmanship",
+      "Imperfection",
+      "Lack of Diligence",
+      "Lack of Attention to Detail"
+    ],
+    "keywordsChinese": [
+      "技能",
+      "工艺",
+      "完美",
+      "勤奋",
+      "注重细节"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏技能",
+      "缺乏工艺",
+      "不完美",
+      "缺乏勤奋",
+      "缺乏注重细节"
+    ],
+    "descriptionEnglish": "The Eight of Pentacles represents skill, craftsmanship, and perfection. It symbolizes diligence and attention to detail.",
+    "descriptionReversedEnglish": "When reversed, the Eight of Pentacles indicates lack of skill, lack of craftsmanship, and imperfection. It suggests lack of diligence and lack of attention to detail.",
+    "descriptionChinese": "星币八代表技能、工艺和完美。它象征着勤奋和注重细节。",
+    "descriptionReversedChinese": "逆位时，星币八表示缺乏技能、缺乏工艺和不完美。它暗示缺乏勤奋和缺乏注重细节。",
+    "imagePath": "eightofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Nine of Pentacles",
+    "nameChinese": "星币九",
+    "keywordsEnglish": [
+      "Wealth",
+      "Luxury",
+      "Self-Sufficiency",
+      "Comfort",
+      "Abundance"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Wealth",
+      "Lack of Luxury",
+      "Dependence",
+      "Discomfort",
+      "Lack of Abundance"
+    ],
+    "keywordsChinese": [
+      "财富",
+      "奢华",
+      "自给自足",
+      "舒适",
+      "富饶"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏财富",
+      "缺乏奢华",
+      "依赖",
+      "不舒适",
+      "缺乏富饶"
+    ],
+    "descriptionEnglish": "The Nine of Pentacles represents wealth, luxury, and self-sufficiency. It symbolizes comfort and abundance.",
+    "descriptionReversedEnglish": "When reversed, the Nine of Pentacles indicates lack of wealth, lack of luxury, and dependence. It suggests discomfort and lack of abundance.",
+    "descriptionChinese": "星币九代表财富、奢华和自给自足。它象征着舒适和富饶。",
+    "descriptionReversedChinese": "逆位时，星币九表示缺乏财富、缺乏奢华和依赖。它暗示不舒适和缺乏富饶。",
+    "imagePath": "nineofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Ten of Pentacles",
+    "nameChinese": "星币十",
+    "keywordsEnglish": [
+      "Wealth",
+      "Legacy",
+      "Family",
+      "Security",
+      "Completion"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Wealth",
+      "Lack of Legacy",
+      "Family Conflict",
+      "Insecurity",
+      "Incompleteness"
+    ],
+    "keywordsChinese": [
+      "财富",
+      "遗产",
+      "家庭",
+      "安全",
+      "完成"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏财富",
+      "缺乏遗产",
+      "家庭冲突",
+      "不安全",
+      "未完成"
+    ],
+    "descriptionEnglish": "The Ten of Pentacles represents wealth, legacy, and family. It symbolizes security and completion.",
+    "descriptionReversedEnglish": "When reversed, the Ten of Pentacles indicates lack of wealth, lack of legacy, and family conflict. It suggests insecurity and incompleteness.",
+    "descriptionChinese": "星币十代表财富、遗产和家庭。它象征着安全和完成。",
+    "descriptionReversedChinese": "逆位时，星币十表示缺乏财富、缺乏遗产和家庭冲突。它暗示不安全和未完成。",
+    "imagePath": "tenofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Page of Pentacles",
+    "nameChinese": "星币侍从",
+    "keywordsEnglish": [
+      "Practicality",
+      "Material Focus",
+      "Opportunity",
+      "Learning",
+      "Growth"
+    ],
+    "keywordsReversedEnglish": [
+      "Impracticality",
+      "Lack of Focus",
+      "Missed Opportunity",
+      "Lack of Learning",
+      "Lack of Growth"
+    ],
+    "keywordsChinese": [
+      "实际",
+      "物质关注",
+      "机会",
+      "学习",
+      "成长"
+    ],
+    "keywordsReversedChinese": [
+      "不实际",
+      "缺乏关注",
+      "错失机会",
+      "缺乏学习",
+      "缺乏成长"
+    ],
+    "descriptionEnglish": "The Page of Pentacles represents practicality, material focus, and opportunity. It symbolizes learning and growth.",
+    "descriptionReversedEnglish": "When reversed, the Page of Pentacles indicates impracticality, lack of focus, and missed opportunities. It suggests lack of learning and lack of growth.",
+    "descriptionChinese": "星币侍从代表实际、物质关注和机会。它象征着学习和成长。",
+    "descriptionReversedChinese": "逆位时，星币侍从表示不实际、缺乏关注和错失机会。它暗示缺乏学习和缺乏成长。",
+    "imagePath": "pageofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Knight of Pentacles",
+    "nameChinese": "星币骑士",
+    "keywordsEnglish": [
+      "Stability",
+      "Reliability",
+      "Hard Work",
+      "Determination",
+      "Material Focus"
+    ],
+    "keywordsReversedEnglish": [
+      "Instability",
+      "Unreliability",
+      "Laziness",
+      "Lack of Determination",
+      "Lack of Focus"
+    ],
+    "keywordsChinese": [
+      "稳定",
+      "可靠",
+      "努力工作",
+      "决心",
+      "物质关注"
+    ],
+    "keywordsReversedChinese": [
+      "不稳定",
+      "不可靠",
+      "懒惰",
+      "缺乏决心",
+      "缺乏关注"
+    ],
+    "descriptionEnglish": "The Knight of Pentacles represents stability, reliability, and hard work. He symbolizes determination and material focus.",
+    "descriptionReversedEnglish": "When reversed, the Knight of Pentacles indicates instability, unreliability, and laziness. It suggests lack of determination and lack of focus.",
+    "descriptionChinese": "星币骑士代表稳定、可靠和努力工作。他象征着决心和物质关注。",
+    "descriptionReversedChinese": "逆位时，星币骑士表示不稳定、不可靠和懒惰。它暗示缺乏决心和缺乏关注。",
+    "imagePath": "knightofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "Queen of Pentacles",
+    "nameChinese": "星币王后",
+    "keywordsEnglish": [
+      "Nurturing",
+      "Practicality",
+      "Comfort",
+      "Material Success",
+      "Earthiness"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Nurturing",
+      "Impracticality",
+      "Discomfort",
+      "Lack of Success",
+      "Unearthliness"
+    ],
+    "keywordsChinese": [
+      "养育",
+      "实际",
+      "舒适",
+      "物质成功",
+      "质朴"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏养育",
+      "不实际",
+      "不舒适",
+      "缺乏成功",
+      "不质朴"
+    ],
+    "descriptionEnglish": "The Queen of Pentacles represents nurturing, practicality, and comfort. She symbolizes material success and earthiness.",
+    "descriptionReversedEnglish": "When reversed, the Queen of Pentacles indicates lack of nurturing, impracticality, and discomfort. It suggests lack of success and unearthliness.",
+    "descriptionChinese": "星币王后代表养育、实际和舒适。她象征着物质成功和质朴。",
+    "descriptionReversedChinese": "逆位时，星币王后表示缺乏养育、不实际和不舒适。它暗示缺乏成功和不质朴。",
+    "imagePath": "queenofpentacles.jpeg"
+  },
+  {
+    "nameEnglish": "King of Pentacles",
+    "nameChinese": "星币国王",
+    "keywordsEnglish": [
+      "Wealth",
+      "Material Success",
+      "Stability",
+      "Generosity",
+      "Control"
+    ],
+    "keywordsReversedEnglish": [
+      "Lack of Wealth",
+      "Lack of Success",
+      "Instability",
+      "Lack of Generosity",
+      "Lack of Control"
+    ],
+    "keywordsChinese": [
+      "财富",
+      "物质成功",
+      "稳定",
+      "慷慨",
+      "控制"
+    ],
+    "keywordsReversedChinese": [
+      "缺乏财富",
+      "缺乏成功",
+      "不稳定",
+      "缺乏慷慨",
+      "缺乏控制"
+    ],
+    "descriptionEnglish": "The King of Pentacles represents wealth, material success, and stability. He symbolizes generosity and control.",
+    "descriptionReversedEnglish": "When reversed, the King of Pentacles indicates lack of wealth, lack of success, and instability. It suggests lack of generosity and lack of control.",
+    "descriptionChinese": "星币国王代表财富、物质成功和稳定。他象征着慷慨和控制。",
+    "descriptionReversedChinese": "逆位时，星币国王表示缺乏财富、缺乏成功和不稳定。它暗示缺乏慷慨和缺乏控制。",
+    "imagePath": "kingofpentacles.jpeg"
+  }
+]
